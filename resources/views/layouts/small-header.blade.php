@@ -30,61 +30,66 @@
 
 <body>
 <!-- home -->
-<div id="home">
-    <!--/top-nav -->
-    <div class="top_w3pvt_main container">
-        <!--/header -->
-        <header class="nav_w3pvt text-center ">
-            <!-- nav -->
-            <nav class="wthree-w3ls">
-                <div id="logo">
-                    <h1><a class="navbar-brand px-0 mx-0" href="{{url('/')}}">GeOilEnergy</a></h1>
-                </div>
+<div id="home" class="inner-w3pvt-page">
+    <div class="overlay-innerpage">
+        <!--/top-nav -->
+        <div class="top_w3pvt_main container">
+            <!--/header -->
+            <header class="nav_w3pvt text-center ">
+                <!-- nav -->
+                <nav class="wthree-w3ls">
+                    <div id="logo">
+                        <h1><a class="navbar-brand px-0 mx-0" href="{{url('/')}}">GeOilEnergy</a></h1>
+                    </div>
 
-                <label for="drop" class="toggle">Menu</label>
-                <input type="checkbox" id="drop"/>
-                <ul class="menu mr-auto">
-                    <li class="active"><a href="{{url('/')}}">Inicio</a></li>
-                    <li>
-                        <!-- First Tier Drop Down -->
-                        <label for="drop-2" class="toggle toogle-2">Servicios
-                            <span class="fa fa-angle-down" aria-hidden="true"></span></label>
-                        <a href="#">Servicios <span class="fa fa-angle-down" aria-hidden="true"></span></a>
-                        <input type="checkbox" id="drop-2"/>
-                        <ul>
-                            <li><a href="{{url('/servicios/geoespaciales')}}" class="drop-text">Soluciones
-                                    Geoespaciales</a></li>
-                            <li><a href="{{url('/servicios/geofisica')}}" class="drop-text">Soluciones Geofísica</a>
-                            </li>
-                            <li><a href="{{url('/servicios/geologia')}}" class="drop-text">Soluciones Geología</a></li>
+                    <label for="drop" class="toggle">Menu</label>
+                    <input type="checkbox" id="drop"/>
+                    <ul class="menu mr-auto">
+                        <li class="active"><a href="{{url('/')}}">Inicio</a></li>
+                        <li>
+                            <!-- First Tier Drop Down -->
+                            <label for="drop-2" class="toggle toogle-2">Servicios
+                                <span class="fa fa-angle-down" aria-hidden="true"></span></label>
+                            <a href="#">Servicios <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <input type="checkbox" id="drop-2"/>
+                            <ul>
+                                <li><a href="{{url('/servicios/geoespaciales')}}" class="drop-text">Soluciones
+                                        Geoespaciales</a></li>
+                                <li><a href="{{url('/servicios/geofisica')}}" class="drop-text">Soluciones Geofísica</a>
+                                </li>
+                                <li><a href="{{url('/servicios/geologia')}}" class="drop-text">Soluciones Geología</a>
+                                </li>
 
-                        </ul>
-                    </li>
-                    <li>
-                        <!-- First Tier Drop Down -->
-                        <label for="drop-3" class="toggle toogle-3">Software<span class="fa fa-angle-down" aria-hidden="true"></span></label>
-                        <a href="#">Software <span class="fa fa-angle-down" aria-hidden="true"></span></a>
-                        <input type="checkbox" id="drop-3"/>
-                        <ul>
-                            <li><a href="{{url('/software/geosoluciones')}}" class="drop-text">Software Geoespacial</a>
-                            </li>
-                            <li><a href="{{url('/software/geofisica')}}" class="drop-text">Software Geología y
-                                    Geofísica</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="{{url('/nosotros')}}">Nosotros</a></li>
-                    <li><a href="{{url('/aliados')}}">Aliados</a></li>
-                    <li><a href="{{url('/contacto')}}">Contacto</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <!-- First Tier Drop Down -->
+                            <label for="drop-3" class="toggle toogle-3">Software<span class="fa fa-angle-down" aria-hidden="true"></span></label>
+                            <a href="#">Software <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <input type="checkbox" id="drop-3"/>
+                            <ul>
+                                <li><a href="{{url('/software/geosoluciones')}}" class="drop-text">Software
+                                        Geoespacial</a>
+                                </li>
+                                <li><a href="{{url('/software/geofisica')}}" class="drop-text">Software Geología y
+                                        Geofísica</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="{{url('/nosotros')}}">Nosotros</a></li>
+                        <li><a href="{{url('/aliados')}}">Aliados</a></li>
+                        <li><a href="{{url('/contacto')}}">Contacto</a></li>
 
-                </ul>
-            </nav>
-            <!-- //nav -->
-        </header>
-        <!--//header -->
+                    </ul>
+                </nav>
+                <!-- //nav -->
+            </header>
+            <!--//header -->
+            @yield('breadcrumb')
+        </div>
     </div>
     <!-- //top-nav -->
-@yield('content')
 </div>
+    @yield('content')
 <!-- footer -->
 <footer class="py-lg-5 py-4">
     <div class="container py-sm-3">

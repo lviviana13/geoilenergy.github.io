@@ -51,6 +51,10 @@ class SoftwareController extends Controller
             case 'global-mapper-3d':
                 return view('software.geosolucionesSoft.global-mapper-3d', ['title' => 'Global Mapper 3D']);
                 break;
+
+            case 'global-mapper-ld':
+                return view('software.geosolucionesSoft.global-mapper-', ['title' => 'Global Mapper Lidar']);
+                break;
             case 'i-open':
                 return view('software.geosolucionesSoft.i-open', ['title' => 'I-OPEN']);
                 break;
