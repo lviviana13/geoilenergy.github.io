@@ -51,9 +51,8 @@ class SoftwareController extends Controller
             case 'global-mapper-3d':
                 return view('software.geosolucionesSoft.global-mapper-3d', ['title' => 'Global Mapper 3D']);
                 break;
-
             case 'global-mapper-ld':
-                return view('software.geosolucionesSoft.global-mapper-', ['title' => 'Global Mapper Lidar']);
+                return view('software.geosolucionesSoft.global-mapper-ld', ['title' => 'Global Mapper Lidar']);
                 break;
             case 'i-open':
                 return view('software.geosolucionesSoft.i-open', ['title' => 'I-OPEN']);
@@ -74,10 +73,10 @@ class SoftwareController extends Controller
                 return view('software.geofisicaSoft.globe-claritas', ['title' => 'Globe Claritas']);
                 break;
             case 'geovariances':
-                return view('software.geofisicaSoft.geovariances', ['Geovariances']);
+                return view('software.geofisicaSoft.geovariances', ['title' => 'Geovariances']);
                 break;
             case 'seisware-geologia':
-                return view('software.geofisicaSoft.seisware-geologia', ['SeisWare Geologia']);
+                return view('software.geofisicaSoft.seisware-geologia', ['title' => 'SeisWare Geologia']);
                 break;
             case 'seisware-geofisica':
                 return view('software.geofisicaSoft.seisware-geofisica', ['title' => 'SeisWare Geofisica']);
