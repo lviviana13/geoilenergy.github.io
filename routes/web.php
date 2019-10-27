@@ -17,4 +17,8 @@ Route::get('/', 'HomeController@index');
 Route::get('/servicios/{idservicio}/{idsubservicio?}', 'ServiciosController@servicios');
 
 /** Softtware */
-Route::get('/software/{idsoftware}', 'SoftwareController@software');
+Route::get('/software/{idsoftware}/{idsubsoftware?}', 'SoftwareController@software');
+
+Route::get('/nosotros', 'NosotrosController@index');
+Route::get('/aliados', 'AliadosController@index');
+Route::get('/contacto', 'ContactoController@index');

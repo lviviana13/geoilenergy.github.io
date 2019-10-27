@@ -47,12 +47,15 @@
                     <li class="active"><a href="{{url('/')}}">Inicio</a></li>
                     <li>
                         <!-- First Tier Drop Down -->
-                        <label for="drop-2" class="toggle toogle-2">Servicios <span class="fa fa-angle-down" aria-hidden="true"></span></label>
+                        <label for="drop-2" class="toggle toogle-2">Servicios
+                            <span class="fa fa-angle-down" aria-hidden="true"></span></label>
                         <a href="#">Servicios <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                         <input type="checkbox" id="drop-2"/>
                         <ul>
-                            <li><a href="{{url('/servicios/geoespaciales')}}" class="drop-text">Soluciones Geoespaciales</a></li>
-                            <li><a href="{{url('/servicios/geofisica')}}" class="drop-text">Soluciones Geofísica</a></li>
+                            <li><a href="{{url('/servicios/geoespaciales')}}" class="drop-text">Soluciones
+                                    Geoespaciales</a></li>
+                            <li><a href="{{url('/servicios/geofisica')}}" class="drop-text">Soluciones Geofísica</a>
+                            </li>
                             <li><a href="{{url('/servicios/geologia')}}" class="drop-text">Soluciones Geología</a></li>
 
                         </ul>
@@ -63,13 +66,15 @@
                         <a href="#">Software <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                         <input type="checkbox" id="drop-3"/>
                         <ul>
-                            <li><a href="softwareGeomatica.html" class="drop-text">Software Geoespacial</a></li>
-                            <li><a href="softwareGeofisicaGeologia.html" class="drop-text">Software Geología y Geofísica</a></li>
+                            <li><a href="{{url('/software/geosoluciones')}}" class="drop-text">Software Geoespacial</a>
+                            </li>
+                            <li><a href="{{url('/software/geofisica')}}" class="drop-text">Software Geología y
+                                    Geofísica</a></li>
                         </ul>
                     </li>
-                    <li><a href="about.html">Nosotros</a></li>
-                    <li><a href="aliados.html">Aliados</a></li>
-                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="{{url('/nosotros')}}">Nosotros</a></li>
+                    <li><a href="{{url('/aliados')}}">Aliados</a></li>
+                    <li><a href="{{url('/contacto')}}">Contacto</a></li>
 
                 </ul>
             </nav>
@@ -79,14 +84,14 @@
     </div>
     <!-- //top-nav -->
 </div>
-    @yield('content')
+@yield('content')
 
 <!-- footer -->
 <footer class="py-lg-5 py-4">
     <div class="container py-sm-3">
         <div class="row footer-grids">
             <div class="col-lg-4 mt-4">
-                <h2><a class="navbar-brand px-0 mx-0 mb-4" href="contact.html">Contáctenos
+                <h2><a class="navbar-brand px-0 mx-0 mb-4" href="{{url('/contacto')}}">Contáctenos
                     </a>
                 </h2>
                 <p class="mb-3">
@@ -98,20 +103,23 @@
                 </p>
                 <h4 class="mb-4">Redes Sociales</h4>
                 <div class="icon-social mt-4">
-                    <a href="https://www.facebook.com/geoilenergy/" target="_blanck" class="button-footr">
+                    <a href="https://www.facebook.com/geoilenergy/" target="_blank" class="button-footr">
                             <span class="fa mx-2 fa-facebook">
                             </span>
                     </a>
-                    <a href="https://twitter.com/geo_oil_energy" target="_blanck" class="button-footr">
+                    <a href="https://twitter.com/geo_oil_energy" target="_blank" class="button-footr">
                         <span class="fa mx-2 fa-twitter"></span>
                     </a>
-                    <a href="https://www.instagram.com/geoilenergy/" class="button-footr">
+                    <a href="https://www.instagram.com/geoilenergy/" target="_blank" class="button-footr">
                         <span class="fa mx-2 fa-instagram"></span>
                     </a>
-                    <a href="https://www.geoilenergy.com/web/https://www.linkedin.com/in/geo-oil-energy-698aa54b" class="button-footr">
+                    <a href="https://www.geoilenergy.com/web/https://www.linkedin.com/in/geo-oil-energy-698aa54b" target="_blank"
+                       class="button-footr">
                         <span class="fa mx-2 fa-linkedin"></span>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=+573102623869&text=Estoy%20Interesado%20en%20sus%20productos" class="button-footr">
+                    <a href="https://api.whatsapp
+                    .com/send?phone=+573102623869&text=Estoy%20Interesado%20en%20sus%20productos" target="_blank"
+                       class="button-footr">
                         <span class="fa mx-2 fa-whatsapp"></span>
                     </a>
 
