@@ -11,6 +11,7 @@ body {
     font-size: 100%;
     background: #fff;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body a {
@@ -72,6 +73,9 @@ body img {
     display: none;
 }
 
+
+
+
 /* Giving a background-color to the nav container. */
 
 nav {
@@ -124,7 +128,7 @@ ul.menu {
 /* Positioning the navigation items inline */
 
 nav ul li {
-    margin: 0px;
+    margin: 0;
     display: inline-block;
 }
 
@@ -202,7 +206,7 @@ nav ul ul li a {
     display: block;
 }
 
-/* Second, Third and more Tiers	
+/* Second, Third and more Tiers
  * We move the 2nd and 3rd etc tier dropdowns to the left
  * by the amount of the width of the first tier.
 */

@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
+
+/** Servicios */
+Route::get('/servicios/{idservicio}', 'ServiciosController@servicios');
+Route::get('/servicios/geoespaciales/{idgeoespacial}', 'ServiciosController@geoespacial');
