@@ -14,5 +14,7 @@
 Route::get('/', 'HomeController@index');
 
 /** Servicios */
-Route::get('/servicios/{idservicio}', 'ServiciosController@servicios');
-Route::get('/servicios/geoespaciales/{idgeoespacial}', 'ServiciosController@geoespacial');
+Route::get('/servicios/{idservicio}/{idsubservicio?}', 'ServiciosController@servicios');
+
+/** Softtware */
+Route::get('/software/{idsoftware}', 'SoftwareController@software');

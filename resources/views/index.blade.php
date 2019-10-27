@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('title', 'GeOilEnergy')
+@section('title'){{ $title }}@endsection
 @section('content')
     <!-- banner slider -->
     <div id="homepage-slider" class="st-slider">
@@ -65,9 +65,11 @@
                 <h3 class="tittle-w3ls mb-3"><span class="pink">Nuestra</span> Compañia</h3>
                 <p class="sub-tittle mt-3 mb-4">Geo Oil Energy es una compañía internacional especializada en la
                     representación,
-                    comercialización y distribución para Canadá y el mercado Latinoamericano, de productos y servicios de
+                    comercialización y distribución para Canadá y el mercado Latinoamericano, de productos y servicios
+                    de
                     compañías
-                    expertas en las áreas de: Geología, Geofísica, Geomática e Ingeniería, con sus oficinas principales en
+                    expertas en las áreas de: Geología, Geofísica, Geomática e Ingeniería, con sus oficinas principales
+                    en
                     Calgary, Canadá y Bogotá, Colombia</p>
                 <a class="btn more black" href="about.html" role="button">Leer más</a>
             </div>
@@ -85,7 +87,8 @@
                 <div class="col-md-6 banner_bottom_left mt-lg-0 mt-4">
                     <h4><a class="link-hny" href="services.html">
                             Nosotros podemos proveer el Software que tu organización necesita...</a></h4>
-                    <p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra
+                    <p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla
+                        viverra
                         pharetra sem, eget
                         pulvinar neque pharetra ac.</p>
                     <p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra
@@ -122,7 +125,8 @@
                                     </div>
                                     <div class="col-md-10 featured_grid_right_info">
                                         <h4><a class="link-hny" href="single.html">UI/UX Designs</a></h4>
-                                        <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                                        <p>Lorem Ipsum is simply text the printing and typesetting standard
+                                            industry.</p>
 
                                     </div>
 
@@ -137,7 +141,8 @@
                                     </div>
                                     <div class="col-md-10 featured_grid_right_info">
                                         <h4><a class="link-hny" href="single.html">SEO Marketing</a></h4>
-                                        <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                                        <p>Lorem Ipsum is simply text the printing and typesetting standard
+                                            industry.</p>
 
                                     </div>
 
@@ -155,7 +160,8 @@
                                     </div>
                                     <div class="col-md-10 featured_grid_right_info">
                                         <h4><a class="link-hny" href="single.html">User Experience</a></h4>
-                                        <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                                        <p>Lorem Ipsum is simply text the printing and typesetting standard
+                                            industry.</p>
 
                                     </div>
 
@@ -170,7 +176,8 @@
                                     </div>
                                     <div class="col-md-10 featured_grid_right_info">
                                         <h4><a class="link-hny" href="single.html">Creative Strategy</a></h4>
-                                        <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                                        <p>Lorem Ipsum is simply text the printing and typesetting standard
+                                            industry.</p>
 
                                     </div>
 
@@ -199,7 +206,8 @@
                 <div class="col-md-6 banner_bottom_left">
                     <h4><a class="link-hny" href="services.html">
                             Trabajamos con grandes compañias reconocidas en el sector</a></h4>
-                    <p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra
+                    <p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla
+                        viverra
                         pharetra sem, eget
                         pulvinar neque pharetra ac.</p>
                     <p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra
@@ -218,7 +226,8 @@
                             </div>
                         </div>
                         <div class="col-md-9 featured_grid_right_info pl-lg-0">
-                            <h4><a class="link-hny" href="single.html">Servicios en Geomática, Geología y Geofísica</a></h4>
+                            <h4><a class="link-hny" href="single.html">Servicios en Geomática, Geología y Geofísica</a>
+                            </h4>
                             <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
                         </div>
                     </div>
@@ -254,4 +263,4 @@
         </div>
     </section>
     <!--//ab-->
-    @endsection
+@endsection
