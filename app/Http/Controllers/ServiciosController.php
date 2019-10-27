@@ -14,15 +14,15 @@ class ServiciosController extends Controller
                     ? $this->geoespacial($idsubservicio)
                     : view('servicios.geoespaciales',
                            [
-                               'title' => 'Soluciones Geoespaciales | GeOilEnergy'
+                               'title' => 'Soluciones Geoespaciales'
                            ]
                     );
                 break;
             case 'geofisica':
-                return view('servicios.geofisica', ['title' => 'Servicios Geofisica | GeOilEnergy']);
+                return view('servicios.geofisica', ['title' => 'Servicios Geofisica']);
                 break;
             case 'geologia':
-                return view('servicios.geologia', ['title' => ['Servicios Geología | GeOilEnergy']]);
+                return view('servicios.geologia', ['title' => 'Servicios Geología']);
                 break;
             default:
                 return view('index');
@@ -34,22 +34,22 @@ class ServiciosController extends Controller
     {
         switch (strtolower($idgeoespacial)) {
             case 'deimos':
-                return view('servicios.geoespacialesServ.deimos', ['title' => 'Deimos Imaging | GeOilEnergy']);
+                return view('servicios.geoespacialesServ.deimos', ['title' => 'Deimos Imaging']);
                 break;
             case 'eagle-mapping';
-                return view('servicios.geoespacialesServ.eagle-mapping', ['title' => 'Eagle Mapping | GeOilEnergy']);
+                return view('servicios.geoespacialesServ.eagle-mapping', ['title' => 'Eagle Mapping']);
                 break;
             case 'iopenfme':
-                return view('servicios.geoespacialesServ.iopenfme', ['title' => 'IOPEN & FME | GeoOilEnergy']);
+                return view('servicios.geoespacialesServ.iopenfme', ['title' => 'IOPEN & FME']);
                 break;
             case 'sigoe':
-                return view('servicios.geoespacialesServ.sigoe', ['title' => 'Sigoe | GeOilEnergy']);
+                return view('servicios.geoespacialesServ.sigoe', ['title' => 'Sigoe']);
                 break;
             case 'ecopia':
-                return view('servicios.geoespacialesServ.ecopia', ['title' => 'Ecopia | GeOilEnergy']);
+                return view('servicios.geoespacialesServ.ecopia', ['title' => 'Ecopia']);
                 break;
             case 'drones':
-                return view('servicios.geoespaciales.ecopia', ['title' => 'Drones | GeOilEnergy']);
+                return view('servicios.geoespaciales.ecopia', ['title' => 'Drones']);
                 break;
             default:
                 return view('index');

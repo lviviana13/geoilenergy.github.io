@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>@yield('title')</title>
+    <title>@yield('title') | GeOilEnergy</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8"/>

@@ -8,6 +8,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('index', ['title' => 'GeOilEnergy']);
+        return view('index', ['title' => 'Bienvenidos']);
     }
 }
