@@ -60,13 +60,13 @@
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
-                    <a href="{{url('/software/geofisica/tesseral')}}"><img src="/images/g8.jpg" alt="w3pvt" class="img-fluid"></a>
+                    <a href="{{url('/software/geofisica/tesseral')}}"><img  src="/images/software/index/tesseral.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>TESSERAL<span class="decription">TetraSeis Inc. y Tesseral Technologies Inc, son parte del grupo Tetrale Group Inc. Tesseral Tecnologies Inc, es la compañía desarrolladora de los programas Tesseral 2D y Tesseral Pro, herramientas de modelamiento del campo de onda de alta precisión para el diseño del levantamiento sísmico, procesamiento e interpretación sísmica. TetraSeis Inc. es la compañía que provee tecnologías avanzadas de procesamiento sísmico para la obtención de imágenes de límites verticales (Duplex Wave Migration - DWM), como fallas y sistemas de fracturas saturados de fluidos que son invisibles en el procesamiento sísmico convencional.</span></h5>
+                        <h5>TESSERAL<span class="decription"> Herramientas de modelamiento del campo de onda de alta precisión para el diseño del levantamiento sísmico, procesamiento e interpretación sísmica.</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
-                    <a href="{{url('/software/geofisica/hds2000')}}"><img src="/images/g9.jpg" alt="w3pvt" class="img-fluid"></a>
+                    <a href="{{url('/software/geofisica/hds2000')}}"><img src="/images/software/index/tesseral.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
                         <h5>HDS 2000<span class="decription">Hydrocarbon Data system Inc., es la compañía representada por Geo Oil Energy (GOE) para la comercialización y distribución de su software HDS 2000 y sus servicios de consultoría. HDS 2000 es una aplicación de análisis de registros y petrofísica enfocada a Geólogos, Ingenieros y Petrofísicos, sobre la plataforma de Windows. HDS 2000 toma la información digital y la convierte en una base de datos Access para llevar a cabo análisis petrofísico, determinístico Estándar, cálculo de porosidades, Saturación de agua, volumen de arcilla, entre otros.</span></h5>
                     </div>
