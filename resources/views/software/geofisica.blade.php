@@ -46,9 +46,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
-                    <a href="{{url('/software/geofisica/geomodeling')}}"><img src="/images/g6.jpg" alt="w3pvt" class="img-fluid"></a>
+                    <a href="{{url('/software/geofisica/geomodeling')}}"><img src="/images/software/index/geomodeling.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>GEOMODELING<span class="decription">Geomodeling Technology corp., es la compañía representada por Geo Oil Energy (GOE) para la comercialización y distribución de sus aplicaciones y servicios en Latinoamérica. Los productos y servicios de Geomodeling son líderes en el análisis de atributos sísmicos y modelamiento multi-escala de reservorio para la industria de exploración y producción de hidrocarburos.</span></h5>
+                        <h5>GEOMODELING<span class="decription">Líder en el análisis de atributos sísmicos y modelamiento multi-escala de reservorio para la industria de exploración y producción de hidrocarburos.</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
