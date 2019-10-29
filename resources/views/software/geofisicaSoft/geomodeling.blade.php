@@ -6,7 +6,9 @@
         <div class="content-w3ls-inn px-lg-5">
             <div class="container py-md-5 py-3">
                 <div class="content-sing-w3pvt px-lg-5">
-                    <h3 class="tittle-w3ls mb-3">Geomodeling</h3>
+                <a href="https://geomodeling.com/" target="_blank" >
+                    <h3 class="text-center"><img class="img-fluid" style="max-height: 150px" src="/images/software/index/geomodeling_logo.png" alt=""></h3> 
+                    </a>
                     <p>Geomodeling Technology Corp. es una compañía con base en Calgary, Canadá, líder en programas de
                         análisis de atributos sísmicos y modelamiento de reservorio a múltiples escalas, además de
                         ofrecer servicios para la industria de exploración y producción, cuyo objetivo principal es
@@ -18,11 +20,16 @@
                         herramienta de gran ayuda que le Brinda soluciones en modelamiento integrado, a multi-escala,
                         combinando visualización estratigráfica y correlación de múltiples atributos con las más
                         recientes y avanzadas técnicas de modelamiento de reservorio.</p>
-                    <img class="img-fluid mb-2" src="/images/banner2.jpg" alt="">
+
+                        <hr>
+                    
                     <div class="row about-w3pvt-top mt-2">
                         <div class="col-lg-6 about-info">
+                            
                             <h4 class="title-hny mb-3">Attribute Studio™ – Más allá de la Interpretación Sísmica
                                 Convencional</h4>
+
+                            
                             <p>Es una herramienta fácil de usar bajo un entorno Windows y asequible, integral y poderosa
                                 en el análisis de atributos sísmicos que les permite a los usuarios:</p>
                             <ul>
@@ -42,7 +49,15 @@
                                     “Shales” y otras formaciones “Apretadas”.
                                 </li>
                             </ul>
-                            <p>Éstas son las algunas de las herramientas para análisis sísmico:</p>
+                            <hr>
+                            <img class="img-fluid mb-2" style="max-height: 420px" src ="/images/software/geomodeling/uno.png" alt="">
+                            
+                        </div>
+                        <div class="col-lg-6 about-info">
+                           
+                           <h1 class="text-center"><img class="img-fluid mb-2" style="max-height: 420px" src ="/images/software/geomodeling/dos.png" alt=""></h1>
+                          
+                           <p>Éstas son algunas de las herramientas para análisis sísmico:</p>
                             <ul>
                                 <li>Visualización de información 3D.</li>
                                 <li>Correlación múlti- atributos.</li>
@@ -54,7 +69,10 @@
                                 <li>Filtrado de orientación de estructuras</li>
                             </ul>
                         </div>
-                        <div class="col-lg-6 about-info">
+                    </div>
+<hr>
+                   <div class="row about-w3pvt-top mt-2">
+                   <div class="col-lg-6 about-info">
                             <h4 class="title-hny mb-3">Reservoir Studio™ – Modelamiento Geológico para Heterogeneidad de
                                 Reservorio</h4>
                             <p>Reservoir Studio™ le Brinda soluciones de reservorio para estructuras sedimentarias con
@@ -75,20 +93,36 @@
                                     y geofísica a nivel de grilla.
                                 </li>
                             </ul>
-                            <p>Reservoir Studio™ le ofrece una tecnología única para el modelamiento de reservorio con
+                            
+                        </div>
+                        <div class="col-lg-6 about-info">
+                        <h1 class="text-center"><img class="img-fluid mb-2" style="max-height: 400px" src ="/images/software/geomodeling/tres.png" alt=""></h1>
+                        <p>Reservoir Studio™ le ofrece una tecnología única para el modelamiento de reservorio con
                                 precisión. Algunos ambientes geológicos son: Modelamiento de barras de punta, canales
                                 turbidíticos, lóbulos de delta, crevesse splay, entre otros.</p>
                         </div>
-                    </div>
-                    <h3 class="title-hny my-2">Capacidades de Tesseral</h3>
-                    <p>Con SBED™ reduzca las diferencias entre la información de núcleos y los modelos a escala del
+                       
+</div>
+<hr>
+
+<div class="row about-w3pvt-top mt-2">
+<div class="col-lg-6 about-info">
+                        <h1 class="text-center"><img class="img-fluid mb-2" style="max-height: 400px" src ="/images/software/geomodeling/cuatro.png" alt=""> 
+<br> <img class="img-fluid mb-2" style="max-height: 300px" src ="/images/software/geomodeling/cinco.png" alt=""> </h1>
+                    
+                        
+                        </div>
+                   <div class="col-lg-6 about-info">
+                       
+                            <h4 class="title-hny mb-3">SBED ™ – Modelamiento de Permeabilidad Direccional</h4>
+                            <p>Con SBED™ reduzca las diferencias entre la información de núcleos y los modelos a escala del
                         campo, modelando detalles sedimentarios de pequeña escala que impactan el desempeño del
                         reservorio a gran escala. A diferencia de los programas de modelamiento convencional a escala de
                         reservorio, SBED™ hace uso de los procesos geológicos desde el escalamiento de las mediciones
                         del tapón de núcleo hasta los modelos de campo completes. Como resultado, los modelos de SBED™,
                         abordan la heterogeneidad observada del reservorio tanto a escala de núcleo como a escala de
                         afloramiento.</p>
-                    <p>Correlación de atributos sísmicos e información de producción. Atributos de volumen, horizontes e
+                        <p>Correlación de atributos sísmicos e información de producción. Atributos de volumen, horizontes e
                         intervalos.</p>
                     <ul>
                         <li>Descomposición espectral.</li>
@@ -98,6 +132,17 @@
                         <li>Colores de Blending y Co-rendering.</li>
                         <li>Detección y trazo de geo-cuerpos y herramienta de Brocha.</li>
                     </ul>
+                            
+                        </div>
+                       
+                       
+</div>
+
+
+
+                 
+                    
+                    
                 </div>
             </div>
         </div>

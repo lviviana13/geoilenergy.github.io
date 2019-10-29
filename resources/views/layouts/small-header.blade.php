@@ -55,10 +55,10 @@
                             <ul>
                                 <li><a href="{{url('/servicios/geoespaciales')}}" class="drop-text">Soluciones
                                         Geoespaciales</a></li>
-                                <li><a href="{{url('/servicios/geofisica')}}" class="drop-text">Soluciones Geofísica</a>
+                                        <li><a href="{{url('/servicios/geologia')}}" class="drop-text">Soluciones Geología</a>
+                                </li>                                <li><a href="{{url('/servicios/geofisica')}}" class="drop-text">Soluciones Geofísica</a>
                                 </li>
-                                <li><a href="{{url('/servicios/geologia')}}" class="drop-text">Soluciones Geología</a>
-                                </li>
+                               
 
                             </ul>
                         </li>

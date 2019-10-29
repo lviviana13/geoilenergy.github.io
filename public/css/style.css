@@ -161,11 +161,11 @@ li.social-icons a span {
 /* Background color change on Hover */
 
 .menu li a:hover {
-    color: rgba(100, 224, 69, 0.8);
+    color: rgb(181, 221, 3);
 }
 
 .menu li.active a {
-    color: rgba(100, 224, 69, 0.8);
+    color: rgb(181, 221, 3);
 }
 
 /* Hide Dropdowns by Default
@@ -477,7 +477,7 @@ li>a:only-child:after {
 #slide1:checked~div .fake-radio .radio-btn:nth-child(1),
 #slide2:checked~div .fake-radio .radio-btn:nth-child(2),
 #slide3:checked~div .fake-radio .radio-btn:nth-child(3) {
-    background: rgba(100, 224, 69, 0.8);
+    background: rgb(181, 221, 3);
 }
 
 .radio-btn {
@@ -515,7 +515,7 @@ li>a:only-child:after {
 
     0%,
     33.32333333333334% {
-        background: rgba(100, 224, 69, 0.8)
+        background: rgb(181, 221, 3)
     }
 
     33.333333333333336%,
@@ -625,8 +625,8 @@ li>a:only-child:after {
 }
 
 .btn:hover {
-    background: rgba(100, 224, 69, 0.8);
-    border: 2px solid rgba(100, 224, 69, 0.8);
+    background: rgb(181, 221, 3);
+    border: 2px solid rgb(181, 221, 3);
     color: #333;
     transition: .5s ease-in;
     -webkit-transition: .5s ease-in;
@@ -636,15 +636,15 @@ li>a:only-child:after {
 }
 
 .btn.more {
-    background: rgba(100, 224, 69, 0.8);
-    border: 2px solid rgba(100, 224, 69, 0.8);
+    background: rgb(181, 221, 3);
+    border: 2px solid rgb(181, 221, 3);
     color: #222;
 }
 
 .btn.more.black:hover {
     background: #212529;
     border: 2px solid #212529;
-    color:rgba(100, 224, 69, 0.8);
+    color:rgb(181, 221, 3);
 }
 
 .wthree-w3ls {
@@ -788,7 +788,7 @@ p.sub-tittle {
 }
 
 .pink {
-    color:rgba(100, 224, 69, 0.8);
+    color:rgb(181, 221, 3);
 }
 
 h3.tittle-w3ls,
@@ -933,7 +933,7 @@ section#gallery {
 }
 
 .gal-info:hover {
-    background: #212529;
+    background: #3BA3CC;
     transition: .5s ease-in;
     -webkit-transition: .5s ease-in;
     -moz-transition: .5s ease-in;
@@ -1055,7 +1055,7 @@ span.decription {
 
 h6.date {
     font-size: 0.8em;
-    color:rgba(100, 224, 69, 0.8);
+    color:rgb(181, 221, 3);
 }
 
 /*-- //blogs--*/
@@ -1118,8 +1118,8 @@ h6.date {
 }
 
 .con-gd button.btn {
-    background:rgba(100, 224, 69, 0.8);
-    border: 2px solidrgba(100, 224, 69, 0.8);
+    background:rgb(181, 221, 3);
+    border: 2px solidrgb(181, 221, 3);
     color: #222;
     cursor: pointer;
     padding: 13px 0;
@@ -1129,7 +1129,7 @@ h6.date {
 .con-gd button.btn:hover {
     background: #212529;
     border: 2px solid #212529;
-    color:rgba(100, 224, 69, 0.8);
+    color:rgb(181, 221, 3);
 }
 
 p.news-para {
@@ -1256,7 +1256,7 @@ ol.breadcrumb li {
 }
 
 ol.breadcrumb li a {
-    color:rgba(100, 224, 69, 0.8);
+    color:rgb(181, 221, 3);
 }
 
 .breadcrumb-item.active {
@@ -1350,7 +1350,7 @@ h4.title-hny {
 }
 
 .social-icons-footer ul li a:hover {
-    color:rgba(100, 224, 69, 0.8);
+    color:rgb(181, 221, 3);
 }
 
 .comments-grid-right h4 {
@@ -1366,7 +1366,7 @@ h4.title-hny {
 }
 
 .comments-grid-right ul li a {
-    color:rgba(100, 224, 69, 0.8);
+    color:rgb(181, 221, 3);
 }
 
 .single-page-form {}
@@ -1834,7 +1834,7 @@ footer,
 }
 
 .footer-grids h5 span {
-    color:rgba(100, 224, 69, 0.8);
+    color:rgb(181, 221, 3);
 }
 
 .footer-grids p,
@@ -1870,7 +1870,7 @@ footer,
 }
 
 .footer-grids button.btn {
-    background:rgba(100, 224, 69, 0.8);
+    background:rgb(181, 221, 3);
     color: #fff;
     font-size: 14px;
     letter-spacing: 1px;

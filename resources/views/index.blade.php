@@ -1,6 +1,8 @@
 @extends('layouts.template')
 @section('title'){{ $title }}@endsection
-@section('content')<!-- banner slider -->
+@section('content')
+
+<!-- banner slider -->
 <div id="homepage-slider" class="st-slider">
     <input type="radio" class="cs_anchor radio" name="slider" id="play1" checked="" />
     <input type="radio" class="cs_anchor radio" name="slider" id="slide1" />
@@ -87,7 +89,7 @@
                         <div class="col-md-9 featured_grid_right_info pl-lg-0">
                             <h4>Soluciones Geoespaciales, Geología y Geofísica.</h4>
                             <p>Ofrecemos soluciones de vanguardia, con el objetivo de ayudar a nuestros clientes a
-                                generar resultados satisfactorios en sus proyectos de E&P y mineria.
+                                generar resultados satisfactorios en sus proyectos.
 
                             </p>
                         </div>
@@ -103,7 +105,7 @@
                         <div class="col-md-9 featured_grid_right_info pl-lg-0">
                             <h4>Software</h4>
                             <p>Brindamos a nuestros clientes
-                                acceso a la última tecnología para maximizar la captura y uso de información geoespacial.</p>
+                                acceso a la última tecnología.</p>
                         </div>
                     </div>
                 </div>
@@ -188,15 +190,58 @@
         <div class="row news-grids mt-md-5 mt-4 text-center">
             <div class="col-md-4 gal-img">
                 <h5>Aliados Tecnologicos<span class="decription"></span></h5>
-                <a href="{{url('/aliados')}}"><img src="images/g1.jpg" alt="w3pvt" class="img-fluid"></a>
+
+                <a href="{{url('/aliados')}}">
+                <div class="slider">
+                    <ul>
+                    <li> <img src="images/aliados/representaciones/bmg.png" alt="">  </li>
+                         <li><img src="images/aliados/representaciones/geomodeling.png" alt="">                    </li>
+                                        <li>
+                        <img src="images/aliados/representaciones/hds2000.png" alt="">
+                        </li>
+                                        <li>
+                        <img src="images/aliados/representaciones/seisware.png" alt="">
+                        </li>          
+                    </ul>
+                </div>
+                </a>
+        
+
+
             </div>
             <div class="col-md-4 gal-img">
                 <h5>Nuestras Representaciones<span class="decription"></span></h5>
-                <a href="{{url('/aliados')}}"><img src="images/g1.jpg" alt="w3pvt" class="img-fluid"></a>
+                <a href="{{url('/aliados')}}">
+                <div class="slider">
+                    <ul>
+                        <li> <img src="images/aliados/representaciones/bmg.png" alt="">  </li>
+                         <li><img src="images/aliados/representaciones/geomodeling.png" alt="">                    </li>
+                                        <li>
+                        <img src="images/aliados/representaciones/hds2000.png" alt="">
+                        </li>
+                                        <li>
+                        <img src="images/aliados/representaciones/seisware.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                </a>
             </div>
             <div class="col-md-4 gal-img">
                 <h5>Nuestros Clientes<span class="decription"></span></h5>
-                <a href="{{url('/aliados')}}"><img src="images/g1.jpg" alt="w3pvt" class="img-fluid"></a>
+                <a href="{{url('/aliados')}}">
+                <div class="slider">
+                    <ul>
+                    <li> <img src="images/aliados/representaciones/bmg.png" alt="">  </li>
+                         <li><img src="images/aliados/representaciones/geomodeling.png" alt="">                    </li>
+                                        <li>
+                        <img src="images/aliados/representaciones/hds2000.png" alt="">
+                        </li>
+                                        <li>
+                        <img src="images/aliados/representaciones/seisware.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                </a>
             </div>
         </div>
     </div>

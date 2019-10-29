@@ -6,25 +6,37 @@
         <div class="content-w3ls-inn px-lg-5">
             <div class="container py-md-5 py-3">
                 <div class="content-sing-w3pvt px-lg-5">
-                    <h3 class="tittle-w3ls mb-3">Globe Claritas</h3>
-                    <p>Globe ClaritasTM es la plataforma ideal para mejorar las capacidades tecnológicas de
+                    
+                
+                <a href="http://www.globeclaritas.com/" target="_blank" >
+                    <h3 class="text-center"><img class="img-fluid" style="max-height: 150px" src="/images/software/index/globe-claritas_logo.png" alt=""></h3> 
+                    </a>
+
+                    <p>  
+                    Globe ClaritasTM 
+                     es la plataforma ideal para mejorar las capacidades tecnológicas de
                         procesamiento sísmico de su compañía, adaptándose a las necesidades y desafíos que se presenten
                         día a día. Globe ClaritasTM ha sido diseñado como una plataforma de desarrollo geofísico para
                         fortalecer la innovación y el crecimiento, sin la necesidad de una base de datos compleja y
                         costosa.</p>
-                    <img class="img-fluid mb-2" src="/images/banner2.jpg" alt="">
+                   
+                    
+                      <hr>
                     <div class="row about-w3pvt-top mt-2">
                         <div class="col-lg-6 about-info">
                             <h4 class="title-hny mb-3">Seg-Y Analyzer</h4>
+                            
                             <p>Ha sido diseñado principalmente para permitir que la información sísmica de su proyecto
                                 sea almacenada en medios magnéticos. Es una herramienta de gran utilidad para encontrar
                                 la información en el cabezal del archivo con formato SEG-Y, cuando esta no se encuentre
                                 almacenada de forma apropiada. Igualmente, el SEG-Y ANALIZER provee una verificación de
                                 control de calidad para crear archivos con formatos y especificaciones correctas para
                                 sus clientes y proyectos de procesamiento sísmico.</p>
+                                <img class="img-fluid mb-2" src="/images/software/globe-claritas/sya.png" alt="">
                         </div>
                         <div class="col-lg-6 about-info">
                             <h4 class="title-hny mb-3">REFSTAT</h4>
+                            <img class="img-fluid mb-2" src="/images/software/globe-claritas/refstat.png" alt="">
                             <p>La herramienta REFSTAT de Globe ClaritasTM provee soluciones para hacer las correcciones
                                 estáticas de refracción, tanto para información sísmica 2D., como 3D, a través de la
                                 comparación de los tiempos de viaje de los rayos trazados en el modelo, con los primeros
@@ -41,14 +53,12 @@
                     <div class="row about-w3pvt-top mt-2">
                         <div class="col-lg-6 about-info">
                             <h4 class="title-hny mb-3">Claritas Velocity Analysis (CVA)</h4>
-                            <p>Como se nombre lo indica, CVA es la herramienta de análisis de velocidades de Globe
-                                ClaritasTM, para generar campos de velocidades de una forma más fácil y rápida. Pique
-                                velocidades sísmicas:</p>
-                            <ul>
-                                <li>Únicamente donde lo necesita (Menos selecciones erróneas)</li>
-                                <li>Basado en la Geología (el usuario se enfoca dónde debe ser)</li>
-                                <li>Libremente, fuera de los límites pre-calculados (sin ignorar áreas anómalas)</li>
-                            </ul>
+                            <p>Como su nombre lo indica, CVA es la herramienta de análisis de velocidades de Globe
+                                ClaritasTM, para generar campos de velocidades de una forma más fácil y rápida. </p>
+                            
+                                <img class="img-fluid mb-2"  style="max-height: 450px;" src="/images/software/globe-claritas/tres.png" alt="">
+ 
+
                             <p>Múltiples ventanas de análisis se pueden abrir en simultáneo, sincronizadas entre ellas,
                                 actualizando las ediciones realizadas en tiempo real. El procesamiento de grandes
                                 volúmenes de información sísmica 3D puede llegar a ser una labor repetitiva. Sin
@@ -65,6 +75,9 @@
                                 datos. Las funcionalidades de Xview están pensadas en ahorrarle tiempo al usuario,
                                 optimizar el flujo de trabajo y el control de calidad de los proyectos de procedimientos
                                 de procesamiento.</p>
+
+                            <img class="img-fluid mb-2"  style="max-height: 400px;" src="/images/software/globe-claritas/csv.png" alt="">
+                            
                             <ul>
                                 <li>Análisis interactivo en la visualización de la sísmica.</li>
                                 <li>Paneles de sobreposición y repeticiones animadas para resaltar los cambios en el
