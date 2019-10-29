@@ -23,9 +23,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
-                    <a href="{{url('/software/geofisica/globe-claritas')}}"><img src="/images/g2.jpg" alt="w3pvt" class="img-fluid"></a>
+                    <a href="{{url('/software/geofisica/globe-claritas')}}"><img src="/images/software/index/globe-claritas.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>GLOBE CLARITAS<span class="decription"> Globe Claritas es la solución informática costo-efectiva de procesamiento sísmico, marino y terrestre 2D y 3D, representada por Geo Oil Energy (GOE) para la comercialización y distribución en Latinoamérica y Canadá. Globe Claritas es la solución costo efectiva que le permitirá mejorar las capacidades de procesamiento de información sísmica de su compañía.</span></h5>
+                        <h5>GLOBE CLARITAS<span class="decription"> Solución informática costo-efectiva de procesamiento sísmico, marino y terrestre 2D y 3D.</span></h5>
                     </div>
                 </div>
 
