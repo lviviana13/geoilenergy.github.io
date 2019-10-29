@@ -7,9 +7,13 @@
             <div class="container py-md-5 py-3">
                 <div class="content-sing-w3pvt px-lg-5">
                     
-                <a href="http://www.globeclaritas.com/" target="_blank" >  <h3 class="tittle-w3ls mb-3 text-center">Globe Claritas</h3></a>
+                
+                <a href="http://www.globeclaritas.com/" target="_blank" >
+                    <h3 class="text-center"><img class="img-fluid" style="max-height: 150px" src="/images/software/index/globe-claritas_logo.png" alt=""></h3> 
+                    </a>
+
                     <p>  
-                    <a href="http://www.globeclaritas.com/" target="_blank" > Globe ClaritasTM </a>   
+                    Globe ClaritasTM 
                      es la plataforma ideal para mejorar las capacidades tecnológicas de
                         procesamiento sísmico de su compañía, adaptándose a las necesidades y desafíos que se presenten
                         día a día. Globe ClaritasTM ha sido diseñado como una plataforma de desarrollo geofísico para

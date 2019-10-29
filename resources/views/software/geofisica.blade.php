@@ -36,13 +36,15 @@
                 <div class="col-md-4 gal-img">
                     <a href="{{url('/software/geofisica/seisware-geologia')}}"><img src="/images/g3.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>Seisware Geología<span class="decription"> Seisware </span></h5>
+                        <h5>Geology by SeisWare (GL) <span class="decription"> Herramienta de interpretación geológica 3D que 
+                           permite integrar información sísmica, registros de pozo e información de producción 
+                           en un ambiente de interpretación interactivo. </span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
                     <a href="{{url('/software/geofisica/seisware-geofisica')}}"><img src="/images/g3.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>Seisware Geofísica<span class="decription"> Seisware </span></h5>
+                        <h5>Geophysics by SeisWare (GP)<span class="decription"> Sistema “Todo Incluido”, interactivo y dinámico de interpretación sísmica 2D/3D</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">

@@ -4,12 +4,12 @@
     <!-- Contact -->
     <section class="about-info p-lg-5 p-3">
         <div class="content-w3ls-inn px-lg-5">
-            <div class="container py-md-5 py-3">
+            <div class="container py-md-3 py-3">
                 <div class="content-sing-w3pvt px-lg-5">
 
-                
-                    <h3 class="tittle-w3ls mb-3 text-center">Geovariances</h3>
-
+                <a href="https://www.geovariances.com/en/" target="_blank" >
+                    <h3 class="text-center"><img class="img-fluid" style="max-height: 150px" src="/images/software/index/geovariances_logo.png" alt=""></h3> 
+                    </a>
                     <p>
                 Geovariances, es la compañía aliada de Geo Oil Energy (GOE) para la comercialización y distribución de sus programas (Isatis, Minestis, kartotrak) y servicios en Latinoamérica. Isatis, Minestis, kartotrak son programa de geoestadística que le permite dirigir y manejar las necesidades más desafiantes en diferentes campos de la industria tales como la minería, Oíl & Gas, ambiental y mapeo y evaluación del riesgo.
                 </p> 
