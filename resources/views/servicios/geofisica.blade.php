@@ -36,30 +36,15 @@
                         </div>
 
                         <div class="body">
+                        Programas:  Tesseral Pro <br>
+
+Aliados:  Tetrale Group
+<hr>
                             <img src="/images/solucionesGeofisica/uno.jpg" height="700px" class="img-fluid">
                         </div>
                     </div>
 
-                    <div class="demo-card demo-card--step2">
-                        <div class="head">
-                            <div class="number-box"></div>
-                            <h3> <br> DISEÑO DE ADQUISICIÓN SISMICA.  <hr>  </h3>
-                        </div>
-                        <div class="body">
-                            •	Modelización de sísmica terrestre, marina y VSP.<br>
-                            •	Diseño de parámetros técnicos de adquisición 2D y 3D.<br>
-                            •	Planeación del arreglo sísmico 2D/3D.<br>
-                            •	Control de Calidad del diseño de adquisición sísmica.<br>
-                            •	Definición flujo de procesamiento sísmico adecuado.<br>
-                            •	Procesamiento de Información Sísmica con la tecnología DWM (Dual Wave Migration)<br>
-
-                            <br>
-                            Programas:  Tesseral Pro <br>
-
-                            Aliados:  Tetrale Group
-
-                        </div>
-                    </div>
+                   
 
                     <div class="demo-card demo-card--step2">
                         <div class="head">
@@ -80,26 +65,28 @@
                             •	Consultoría en control de calidad.<br>
                             •	Procesamiento estructural y estratigráfico.<br>
                             •	Procesamiento tiempo/profundidad, entre otros.<br> <br>
-                            Programas: Globe Claritas<br>
+                            <br>
                         </div>
                     </div>
 
                     <div class="demo-card demo-card--step3">
                         <div class="head">
                             <div class="number-box"></div>
-                            <h3> <br>  Globe Claritas & SeisWare  <hr>  </h3>
+                            <h3> <br>  Globe Claritas  <hr>  </h3>
                         </div>
 
                         <div class="body">
+                        Programas: Globe Claritas <br>
+
+
+<hr>
                             <img src="/images/solucionesGeofisica/dos.jpg" height="700px" class="img-fluid">  <hr>
-                            <img src="/images/solucionesGeofisica/tres.jpg" height="700px" class="img-fluid">
+                            
                         </div>
                     </div>
 
 
-
-
-
+                    
 
                     <div class="demo-card demo-card--step4">
                         <div class="head">
@@ -121,14 +108,25 @@
                             •	Generación de modelos de velocidades.<br>
                             •	Conversión tiempo/profundidad y viceversa.<br>
                             •	Generación y extracción de atributos sísmicos con capacidad de visualización 3D<br> <br>
-                            Programas: SeisWare<br>
-
-                            Aliados:  Cayros Group
+                           
 
                         </div>
                     </div>
 
+                    <div class="demo-card demo-card--step3">
+                        <div class="head">
+                            <div class="number-box"></div>
+                            <h3> <br>  SeisWare  <hr>  </h3>
+                        </div>
 
+                        <div class="body">
+                        Programas: SeisWare<br>
+
+Aliados:  Cayros Group <hr>
+                           
+                            <img src="/images/solucionesGeofisica/tres.jpg" height="700px" class="img-fluid">
+                        </div>
+                    </div>
 
                 </div>
 

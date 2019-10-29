@@ -33,7 +33,7 @@
                                     <div class="col-sm">
                                         <ul class="list-group">
                                             <li class="list-group-item">ETL - Experiencia en extracción, transformación  y carga (SAFE FME Sofware).</li>
-                                            <li class="list-group-item">Uso de Inteligencia Artificial (IA) y Machine Learning (ML) para digitalización automatizada del terreno..</li>
+                                            <li class="list-group-item">Uso de Inteligencia Artificial (IA) y Machine Learning (ML) para digitalización automatizada del terreno.</li>
 
                                         </ul>
                                     </div>
@@ -145,12 +145,12 @@
     <!-- /projects -->
     <section class="projects py-5" id="gallery">
         <div class="container py-md-5">
-            <h3 class="tittle-w3ls text-left mb-5"><span class="pink">Servicios</span> </h3>
+            <h3 class="tittle-w3ls text-left mb-5">Servicios <span class="pink"> Geoespaciales </span> </h3>
             <div class="row news-grids mt-md-5 mt-4 text-center">
                 <div class="col-md-4 gal-img">
-                    <a href="{{url('/servicios/geoespaciales/deimos')}}"><img src="/images/g1.jpg" alt="w3pvt" class="img-fluid"></a>
+                    <a href="{{url('/servicios/geoespaciales/deimos')}}"><img src="/images/solucionesGeomatica/deimosimaging.jpg" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>Deimos Imaging<span class="decription">Proveedor de Imágenes Satélitales</span></h5>
+                        <h5>Deimos Imaging<span class="decription"></span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">

@@ -19,6 +19,8 @@
     <!-- //Meta tag Keywords -->
     <!-- Custom-Files -->
     <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="{{asset('css/estilos.css')}}">
     <!-- Bootstrap-Core-CSS -->
     <link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css" media="all"/>
     <!-- Style-CSS -->
@@ -34,16 +36,18 @@
     <!--/top-nav -->
     <div class="top_w3pvt_main container">
         <!--/header -->
-        <header class="nav_w3pvt text-center ">
+        <header class="nav_w3pvt text-center"  >
             <!-- nav -->
-            <nav class="wthree-w3ls">
+            <nav style="height: 60px;">
                 <div id="logo">
-                    <h1><a class="navbar-brand px-0 mx-0" href="{{url('/')}}">GeOilEnergy</a></h1>
+                    <h1><a class="navbar-brand px-0 mx-0" href="{{url('/')}}"> <img  style="height: 90px;" src="images/index/logo_geoil.png " alt=""> </a></h1>
+                    
                 </div>
 
                 <label for="drop" class="toggle">Menu</label>
                 <input type="checkbox" id="drop"/>
-                <ul class="menu mr-auto">
+                <ul class="menu mr-auto center">
+
                     <li class="active"><a href="{{url('/')}}">Inicio</a></li>
                     <li>
                         <!-- First Tier Drop Down -->
@@ -52,11 +56,14 @@
                         <a href="#">Servicios <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                         <input type="checkbox" id="drop-2"/>
                         <ul>
+
+                       
                             <li><a href="{{url('/servicios/geoespaciales')}}" class="drop-text">Soluciones
                                     Geoespaciales</a></li>
+                            
+                            <li><a href="{{url('/servicios/geologia')}}" class="drop-text">Soluciones Geología</a></li>
                             <li><a href="{{url('/servicios/geofisica')}}" class="drop-text">Soluciones Geofísica</a>
                             </li>
-                            <li><a href="{{url('/servicios/geologia')}}" class="drop-text">Soluciones Geología</a></li>
 
                         </ul>
                     </li>
@@ -77,6 +84,8 @@
                     <li><a href="{{url('/contacto')}}">Contacto</a></li>
 
                 </ul>
+
+                
             </nav>
             <!-- //nav -->
         </header>
