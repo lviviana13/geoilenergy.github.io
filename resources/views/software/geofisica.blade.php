@@ -8,18 +8,12 @@
             </span> </h3>
             <div class="row news-grids mt-md-5 mt-4 text-center">
                 <div class="col-md-4 gal-img">
-                    <a href="{{url('/software/geofisica/structural-solver')}}"><img src="/images/g1.jpg" alt="w3pvt" class="img-fluid"></a>
+                    <a href="{{url('/software/geofisica/structural-solver')}}"><img src="/images/software/index/structuresolver.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>STRUCTURESOLVER<span class="decription"> Nunns and Rogan LLC., compañía propietaria de
-                            StructuralSolver representada por Geo Oil Energy (GOE) para la comercialización y
-                            distribución de su software y soluciones de consultoría en Latinoamérica.  <br>
+                        <h5>STRUCTURESOLVER<span class="decription"> 
 
-                            StructureSolver integra un conjunto de herramientas de interpretación y
-                            análisis estructural cuantitativa para geo-científicos que trabajan en cuencas falladas y
-                             buscan mejorar la precisión de su interpretación sísmica a través del cálculo de deformación
-                             de pliegues por propagación de fallas, deformación interna, predicción de la
-                             geometría de fallas en profundidad y restauraciones estructurales, con el
-                             objetivo de reducir el riesgo en la exploración y producción de hidrocarburos.</span></h5>
+                            Conjunto de herramientas de interpretación,
+                            análisis estructural cuantitativa  y restauraciones estructurales.</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
