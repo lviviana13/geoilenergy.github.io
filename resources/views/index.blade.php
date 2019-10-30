@@ -191,7 +191,7 @@
             <div class="col-md-4 gal-img">
                 <h5>Aliados Tecnologicos<span class="decription"></span></h5>
 
-                <a href="{{url('/aliados')}}">
+              
                 <div class="slider">
                     <ul>
                     <li> <img src="images/aliados/representaciones/bmg.png" alt="">  </li>
@@ -204,14 +204,14 @@
                         </li>          
                     </ul>
                 </div>
-                </a>
+               
         
 
 
             </div>
             <div class="col-md-4 gal-img">
                 <h5>Nuestras Representaciones<span class="decription"></span></h5>
-                <a href="{{url('/aliados')}}">
+              
                 <div class="slider">
                     <ul>
                         <li> <img src="images/aliados/representaciones/bmg.png" alt="">  </li>
@@ -224,11 +224,11 @@
                         </li>
                     </ul>
                 </div>
-                </a>
+              
             </div>
             <div class="col-md-4 gal-img">
                 <h5>Nuestros Clientes<span class="decription"></span></h5>
-                <a href="{{url('/aliados')}}">
+               
                 <div class="slider">
                     <ul>
                     <li> <img src="images/aliados/representaciones/bmg.png" alt="">  </li>
@@ -241,7 +241,7 @@
                         </li>
                     </ul>
                 </div>
-                </a>
+                
             </div>
         </div>
     </div>

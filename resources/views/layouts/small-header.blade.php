@@ -76,7 +76,7 @@
                             </ul>
                         </li>
                         <li><a href="{{url('/nosotros')}}">Nosotros</a></li>
-                        <li><a href="{{url('/aliados')}}">Aliados</a></li>
+                       
                         <li><a href="{{url('/contacto')}}">Contacto</a></li>
 
                     </ul>

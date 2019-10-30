@@ -921,7 +921,7 @@ section#gallery {
 
 .gal-img img {
     padding: 6px;
-    background: #f0f0f1;
+    background: #f0f0f100;
 }
 
 .gal-info {
@@ -1584,6 +1584,7 @@ h4.title-hny {
 @media (min-width: 480px) {
     #timeline .demo-card .head h3 {
         line-height: 1.2rem;
+        text-align: left;
     }
 }
 

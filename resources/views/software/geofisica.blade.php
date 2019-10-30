@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
-                    <a href="{{url('/software/geofisica/seisware-geologia')}}"><img src="/images/g3.jpg" alt="w3pvt" class="img-fluid"></a>
+                    <a href="{{url('/software/geofisica/seisware-geologia')}}"><img src="/images/software/index/seisware.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
                         <h5>Geology by SeisWare (GL) <span class="decription"> Herramienta de interpretación geológica 3D que 
                            permite integrar información sísmica, registros de pozo e información de producción 
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
-                    <a href="{{url('/software/geofisica/seisware-geofisica')}}"><img src="/images/g3.jpg" alt="w3pvt" class="img-fluid"></a>
+                    <a href="{{url('/software/geofisica/seisware-geofisica')}}"><img src="/images/software/index/seisware.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
                         <h5>Geophysics by SeisWare (GP)<span class="decription"> Sistema “Todo Incluido”, interactivo y dinámico de interpretación sísmica 2D/3D</span></h5>
                     </div>
@@ -59,12 +59,12 @@
                         <h5>QI<span class="decription">Website</span></h5>
                     </div>
                 </div>
-                <div class="col-md-4 gal-img">
+                <!-- <div class="col-md-4 gal-img">
                     <a href="{{url('/software/geofisica/tesseral')}}"><img  src="/images/software/index/tesseral.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
                         <h5>TESSERAL<span class="decription"> Herramientas de modelamiento del campo de onda de alta precisión para el diseño del levantamiento sísmico, procesamiento e interpretación sísmica.</span></h5>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md-4 gal-img">
                     <a href="{{url('/software/geofisica/hds2000')}}"><img src="/images/software/index/tesseral.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
