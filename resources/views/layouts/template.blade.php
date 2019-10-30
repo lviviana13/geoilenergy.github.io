@@ -40,7 +40,7 @@
             <!-- nav -->
             <nav style="height: 60px;">
                 <div id="logo">
-                    <h1><a class="navbar-brand px-0 mx-0" href="{{url('/')}}"> <img  style="height: 90px;" src="images/index/logo_geoil.png " alt=""> </a></h1>
+                    <h1><a class="navbar-brand px-0 mx-0" href="{{url('/')}}"> <img  style="height: 100px;" src="images/index/logo_geoil.png " alt=""> <img  style="height: 100px;" src="images/index/logo_geoin.png " alt=""> </a></h1>
                     
                 </div>
 

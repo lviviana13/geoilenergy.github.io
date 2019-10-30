@@ -48,8 +48,8 @@ h6 {
 }
 
 p {
-    font-size: 1em;
-    color: #777;
+    font-size: 1.1em;
+    color: rgb(27, 27, 27);
     line-height: 1.8em;
 }
 
@@ -933,7 +933,7 @@ section#gallery {
 }
 
 .gal-info:hover {
-    background: #3BA3CC;
+    background: rgb(1, 20, 27);
     transition: .5s ease-in;
     -webkit-transition: .5s ease-in;
     -moz-transition: .5s ease-in;
@@ -948,19 +948,20 @@ section#gallery {
 
 .gal-info h5 {
     text-align: left;
-    font-size: 0.9em;
-    color: #3a4045;
+    /* font-size: 0.9em; */
+    color: rgb(1, 20, 27);
     font-weight: 600;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 span.decription {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     display: block;
     font-size: 0.8em;
-    color: #888;
-    letter-spacing: 2px;
+    color: rgb(64,56,56);
+    /* letter-spacing: 2px; */
     margin-top: 0.5em;
+    text-align: justify;
 }
 
 .gal-info:hover span.decription {

@@ -78,52 +78,7 @@
                 </div>
             </div>
 
-            <div class="row features-w3pvt-main" id="features">
-                <div class="col-md-4 feature-gird">
-                    <div class="row features-hny-inner-gd">
-                        <div class="col-md-3 featured_grid_left">
-                            <div class="icon_left_grid">
-                                <span class="fa fa-globe" aria-hidden="true"></span>
-                            </div>
-                        </div>
-                        <div class="col-md-9 featured_grid_right_info pl-lg-0">
-                            <h4>Soluciones Geoespaciales, Geología y Geofísica.</h4>
-                            <p>Ofrecemos soluciones de vanguardia, con el objetivo de ayudar a nuestros clientes a
-                                generar resultados satisfactorios en sus proyectos.
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 feature-gird">
-                    <div class="row features-hny-inner-gd">
-                        <div class="col-md-3 featured_grid_left">
-                            <div class="icon_left_grid">
-                                <span class="fa fa-laptop" aria-hidden="true"></span>
-                            </div>
-                        </div>
-                        <div class="col-md-9 featured_grid_right_info pl-lg-0">
-                            <h4>Software</h4>
-                            <p>Brindamos a nuestros clientes
-                                acceso a la última tecnología.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 feature-gird">
-                    <div class="row features-hny-inner-gd">
-                        <div class="col-md-3 featured_grid_left">
-                            <div class="icon_left_grid">
-                                <span class="fa fa-handshake-o" aria-hidden="true"></span>
-                            </div>
-                        </div>
-                        <div class="col-md-9 featured_grid_right_info pl-lg-0">
-                            <h4>Soporte</h4>
-                            <p>Apoyados en el uso de tecnología de vanguardia junto con la experiencia y
-                                experticia de los consultores de nuestros asociados, Geo Oil Energy le ofrece servicios de soporte y asesoría para su compañia.</p>
-                        </div>
-                    </div>
-                </div>
-
+           
             </div>
         </div>
 
@@ -144,7 +99,10 @@
                     <p class="sub-tittle mt-2 mb-sm-3 text-left">
                         Ofrecemos soluciones enfocadas a las necesidades de la
                         industria y nos comprometemos con nuestros clientes mas
-                        allá de un contacto o negocio. <br>  <br>
+                        allá de un contacto o negocio.
+                        
+                       
+                        <br>  <br>
                     </p>
                 </div>
                 <div class="col-lg-7 services-grid-inf">
@@ -158,7 +116,8 @@
                                 </div>
                                 <div class="col-md-10 featured_grid_right_info">
                                     <h4>Servicios</h4>
-                                    <p>Conozca las soluciones que tenemos a su disposición.</p>
+                                    <p>Ofrecemos soluciones de vanguardia, con el objetivo de ayudar a nuestros clientes a
+                                generar resultados satisfactorios en sus proyectos.</p>
                                 </div>
                             </div>
                         </div>
@@ -171,7 +130,8 @@
                                 </div>
                                 <div class="col-md-10 featured_grid_right_info">
                                     <h4>Software</h4>
-                                    <p>Proveemos el software que su compañia necesita.</p>
+                                    <p>Apoyados en el uso de tecnología de vanguardia junto con la experiencia y
+                                experticia de los consultores de nuestros asociados, Geo Oil Energy le ofrece servicios de soporte y asesoría para su compañia.</p>
                                 </div>
                             </div>
                         </div>
