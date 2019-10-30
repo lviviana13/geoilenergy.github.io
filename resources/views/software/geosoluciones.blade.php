@@ -8,12 +8,15 @@
             </span> </h3>
             <div class="row news-grids mt-md-5 mt-4 text-center">
                 <div class="col-md-4 gal-img">
-                    <a href="{{url('/software/geosoluciones/g-calculator')}}"><img src="/images/g1.jpg" alt="w3pvt" class="img-fluid"></a>
+                    <a href="{{url('/software/geosoluciones/g-calculator')}}"><img src="/images/software/index/geographiCalculator.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>GEOGRAPHIC CALCULATOR<span class="decription">Geogaphic Calculator es un poderoso software geodésico con énfasis en sísmica, exploración de energía y datos geográficos para empresas, organizaciones, y usuarios particulares; desarrollado por Blue Marble Geographics. Es ampliamente reconocido como la herramienta más importante para abordar y resolver los más complejos y exigentes retos geodésicos. Profesionales SIG alrededor del mundo eligen Geographic Calculator por ser una herramienta correcta, coherente y certificable.</span></h5>
+                        <h5>Geographic Calculator<span class="decription"> Software geodésico con énfasis en sísmica, 
+                        exploración de energía y datos geográficos para empresas, organizaciones, y usuarios particulares; 
+                        
+                      </span></h5>
                     </div>
                 </div>
-                <div class="col-md-4 gal-img">
+                <!-- <div class="col-md-4 gal-img">
                     <a href="{{url('/software/geosoluciones/fme')}}"><img src="/images/g2.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
                         <h5>FME<span class="decription"> Mejorar la sísmica </span></h5>
@@ -44,7 +47,7 @@
                     <div class="gal-info">
                         <h5>I-Open<span class="decription">Website</span></h5>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

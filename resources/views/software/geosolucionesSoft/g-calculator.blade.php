@@ -6,9 +6,11 @@
         <div class="content-w3ls-inn px-lg-5">
             <div class="container py-md-5 py-3">
                 <div class="content-sing-w3pvt px-lg-5">
-                    <h3 class="title-hny my-2">Geographic Calculator</h3>
+                <a href="https://www.bluemarblegeo.com/products/geographic-calculator.php" target="_blank" >
+                    <h3 class="text-center"><img class="img-fluid" style="max-height: 100px" src="/images/software/index/geographiCalculator_logo.png" alt=""></h3> 
+                    </a>
                     <p>Geographic Calculator es la aplicación global de transformación de coordenadas recomendada para cualquier problema geomático desafiante. Es una potente solución para Windows de 32 y 64 bits con especiales ventajas para proyectos geodésicos y en la exploración sísmica o energética. Este software de transformación de alta precisión incluye herramientas canadienses como DLS (Dominio topográfico), herramientas de conversión de estudio sísmico, herramientas de conversión de levantamiento sísmico, zona de utilización de herramientas para orientar a los usuarios y mucho más.</p>
-                    <img class="img-fluid mb-2" src="/images/banner2.jpg" alt="">
+                    
                     <div class="row about-w3pvt-top mt-2">
                         <div class="col-lg-6 about-info">
                             <h4 class="title-hny mb-3">Características</h4>
@@ -35,16 +37,26 @@
                             </p>
                         </div>
                         <div class="col-lg-6 about-info">
+                        <p class="text-center"><img class="img-fluid" style="max-height: 400px"  src="/images/software/g-calculator/uno.png" alt=""></p>
                             <h4 class="title-hny mb-3">Aspectos destacados</h4>
-                            <p>• Admite más de 250 formatos de archivo
-                                • Soporte para leer y escribir sistemas de coordenadas y transformaciones hacia y desde los archivos Petrel ™ CTL.
-                                • Acceso al nuevo registro geodésico GeoCalc.
-                                • Biblioteca de parámetros geodésicos basada en XML.
-                                • Gran compatibilidad con formatos de registros sísmicos, Conversión datos ASCII formateados en SEG, SPS y UKOOA de forma más rápida y eficiente.
-                                • Transformación de coordenadas, vectores, datos CAD, datos ráster, 3D, datos LiDAR, DEMs, DTEDs y bases de datos espaciales.
-                                • Georreferenciación de ráster, re-proyección y herramientas de traducción de archivos vectoriales.
-                                • Capacidad de personalizar y enviar toda o parte de la fuente de datos de la Calculadora Geográfica a Global Mapper.
+
+                            <ul>
+                            <li class="list-group-item">
+                            
+                            <p>• Admite más de 250 formatos de archivo <br>
+                                • Soporte para leer y escribir sistemas de coordenadas y transformaciones hacia y desde los archivos Petrel ™ CTL. <br>
+                                • Acceso al nuevo registro geodésico GeoCalc. <br>
+                                • Biblioteca de parámetros geodésicos basada en XML. <br>
+                                • Gran compatibilidad con formatos de registros sísmicos, Conversión datos ASCII formateados en SEG, SPS y UKOOA de forma más rápida y eficiente. <br>
+                                • Transformación de coordenadas, vectores, datos CAD, datos ráster, 3D, datos LiDAR, DEMs, DTEDs y bases de datos espaciales. <br>
+                                • Georreferenciación de ráster, re-proyección y herramientas de traducción de archivos vectoriales. <br>
+                                • Capacidad de personalizar y enviar toda o parte de la fuente de datos de la Calculadora Geográfica a Global Mapper. <br>
                                 • Extensión ESRI y soporte de CAD.</p>
+                            </li>
+                            
+                            </ul>
+                            <br>
+                                <p class="text-center"><img class="img-fluid" style="max-height: 400px"  src="/images/software/g-calculator/dos.png" alt=""></p>
                         </div>
                     </div>
                     <h3 class="title-hny my-2">GESTION DE DATOS GEOESPACIALES A SU ALCANCE</h3>
