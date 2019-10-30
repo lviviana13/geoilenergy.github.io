@@ -38,7 +38,7 @@
                 </div>
 
                 <div class="col-md-4 gal-img">
-                    <a href="{{url('/software/geofisica/qi')}}"><img src="/images/software/index/qi.png" alt="w3pvt" class="img-fluid"></a>
+                    <a href="{{url('/software/geofisica/qi')}}"><img src="/images/software/index/qi.PNG" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
                         <h5>QI-Pro<span class="decription">Aplicación interactiva de interpretación de atributos sísmicos que permite a 
                             todo el equipo de activos determinar en colaboración cómo combinar y traducir atributos sísmicos en geología plana.</span></h5>
