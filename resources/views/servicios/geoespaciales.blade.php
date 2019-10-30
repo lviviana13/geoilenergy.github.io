@@ -147,13 +147,27 @@
         <div class="container py-md-5">
             <h3 class="tittle-w3ls text-left mb-5">Servicios <span class="pink"> Geoespaciales </span> </h3>
             <div class="row news-grids mt-md-5 mt-4 text-center">
-                <div class="col-md-4 gal-img">
+                
+            <div class="col-md-4 gal-img">
+                    <a href="{{url('/servicios/geoespaciales/ecopia')}}"><img src="/images/solucionesGeomatica/servicios/index/ecopia.png" alt="w3pvt" class="img-fluid"></a>
+                    <div class="gal-info">
+                        <h5>Ecopia<span class="decription">
+                        Proveedor de productos cartográficos de alta definición (HD) a escala global precisas, escalables y actualizadas.
+                        
+                        </span></h5>
+                    </div>
+                </div>
+
+                <!-- 
+                    
+                    <div class="col-md-4 gal-img">
                     <a href="{{url('/servicios/geoespaciales/deimos')}}"><img src="/images/solucionesGeomatica/deimosimaging.jpg" class="img-fluid"></a>
                     <div class="gal-info">
                         <h5>Deimos Imaging<span class="decription"></span></h5>
                     </div>
                 </div>
-                <div class="col-md-4 gal-img">
+
+                    <div class="col-md-4 gal-img">
                     <a href="{{url('/servicios/geoespaciales/eagle-mapping')}}"><img src="/images/g2.jpg" alt="w3pvt"
                                                                          class="img-fluid"></a>
                     <div class="gal-info">
@@ -173,18 +187,13 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 gal-img">
-                    <a href="{{url('/servicios/geoespaciales/ecopia')}}"><img src="/images/g5.jpg" alt="w3pvt" class="img-fluid"></a>
-                    <div class="gal-info">
-                        <h5>Ecopia<span class="decription">Clasificación y digitalización automatizada </span></h5>
-                    </div>
-                </div>
+                
                 <div class="col-md-4 gal-img">
                     <a href="{{url('/servicios/geoespaciales/drones')}}"><img src="/images/g6.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
                         <h5>Drones<span class="decription">Servicio de drones</span></h5>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
