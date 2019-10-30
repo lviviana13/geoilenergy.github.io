@@ -14,14 +14,18 @@
                         exploración de energía y datos geográficos para empresas, organizaciones, y usuarios particulares; 
                         
                       </span></h5>
-                    </div>
-                </div>
-                <!-- <div class="col-md-4 gal-img">
-                    <a href="{{url('/software/geosoluciones/fme')}}"><img src="/images/g2.jpg" alt="w3pvt" class="img-fluid"></a>
+        </div>
+         </div>
+                <div class="col-md-4 gal-img">
+                    <a href="{{url('/software/geosoluciones/fme')}}"><img src="/images/software/index/fme.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>FME<span class="decription"> Mejorar la sísmica </span></h5>
+                        <h5>FME<span class="decription"> 
+                        Plataforma  que permite integrar diferentes formatos de datos   de una manera rápida y eficiente,  reestructurándolos  y transformándolos segun la necesidad del usuario.  Ceunta con el mejor soporte para datos espaciales a nivel mundial.
+                        
+                         </span></h5>
                     </div>
                 </div>
+                 <!--
 
                 <div class="col-md-4 gal-img">
                     <a href="{{url('/software/geosoluciones/global-mapper-3d')}}"><img src="/images/g4.jpg" alt="w3pvt"
