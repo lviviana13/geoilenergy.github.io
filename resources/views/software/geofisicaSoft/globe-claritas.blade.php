@@ -32,7 +32,8 @@
                                 almacenada de forma apropiada. Igualmente, el SEG-Y ANALIZER provee una verificación de
                                 control de calidad para crear archivos con formatos y especificaciones correctas para
                                 sus clientes y proyectos de procesamiento sísmico.</p>
-                                <img class="img-fluid mb-2" src="/images/software/globe-claritas/sya.png" alt="">
+                                <p class="text-center"><img class="img-fluid" style="max-height: 400px"  src="/images/software/globe-claritas/sya.png" alt=""></p> 
+                              
                         </div>
                         <div class="col-lg-6 about-info">
                             <h4 class="title-hny mb-3">REFSTAT</h4>
