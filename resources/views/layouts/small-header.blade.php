@@ -22,6 +22,7 @@
     <!-- Bootstrap-Core-CSS -->
     <link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css" media="all"/>
     <!-- Style-CSS -->
+    <link rel="stylesheet" href="{{asset('css/estilos.css')}}" type="text/css" media="all"/>
     <!-- font-awesome-icons -->
     <link href="{{asset('css/font-awesome.css')}}" rel="stylesheet">
     <!-- //font-awesome-icons -->
