@@ -63,7 +63,7 @@
                             <h4 class="title-hny mb-3">Aspectos destacados</h4>
 
                             <ul>
-                            <li  style="background-color: #ffffed;" class="list-group-item">
+                            <li   class="list-group-item">
                             
                                 <p>• 	Permite leer, editar y exportar datos en diferentes de formatos (Base de datos, archivos de texto, mapas)  <br>
 

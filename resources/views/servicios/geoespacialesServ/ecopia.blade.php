@@ -90,6 +90,20 @@
                 </table>
                 <hr>
 
+
+
+
+                <h4> El poder de la inteligencia Artificial a su disposición convirtiendo pixeles en mapas HD </h4>
+                <br>
+                <p>
+                    Mediante nuestra metodología, estamos interrumpiendo este método tradicional mediante el uso de inteligencia artificial (AI) y aprendizaje automático (ML) de próxima generación, para reducir drásticamente los costos y los plazos, al tiempo que podemos escalar rápidamente en todo el mundo para satisfacer sus necesidades.
+                    Nuestro sistema está ayudando a los clientes gubernamentales y comerciales de todo el mundo a comprender mejor su entorno para evaluar el riesgo de inundación, mejorar la planificación urbana y mejorar las evaluaciones de impuestos.
+                    Ecopia Global Land Classifcation ofrece escalabilidad en todo el estado del proyecto de 30 días. Presentamos doce (12) atributos principales con atributos adicionales disponibles a pedido. ***La imagen abajo muestra las características del terreno extraídas en el área noroccidente de Bogota.
+
+                </p>
+
+                <p class="text-center"><img class="img-fluid" style="max-height: 400px" src="/images/solucionesGeomatica/servicios/ecopia/sb.png" alt=""></p>
+                <hr>
                 <div class="row " id="features">
 
                     <div class="col-md-4 feature-gird">
@@ -147,11 +161,6 @@
                         </div>
                     </div>
 
-
-
-
-
-                    
                 </div>
             </div>
 </section>

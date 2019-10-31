@@ -20,7 +20,7 @@
                     <a href="{{url('/software/geosoluciones/fme')}}"><img src="/images/software/index/fme.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
                         <h5>FME<span class="decription"> 
-                        Plataforma  que permite integrar diferentes formatos de datos   de una manera rápida y eficiente,  reestructurándolos  y transformándolos segun la necesidad del usuario.  Ceunta con el mejor soporte para datos espaciales a nivel mundial.
+                        Plataforma  que permite integrar diferentes formatos de datos   de una manera rápida y eficiente,  reestructurándolos  y transformándolos segun la necesidad del usuario.  Cuenta con el mejor soporte para datos espaciales a nivel mundial.
                         
                          </span></h5>
                     </div>
