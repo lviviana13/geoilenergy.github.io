@@ -162,14 +162,21 @@
 
 
             <div class="col-md-4 gal-img">
-                <a href="{{url('/servicios/geoespaciales/deimos')}}"><img style="height: 150px" src="/images/solucionesGeomatica/servicios/index/deimos-logo.svg" class="img-fluid"></a>
+                <a href="{{url('/servicios/geoespaciales/deimos')}}"><img style="height: 100px" src="/images/solucionesGeomatica/servicios/index/deimos-logo.svg" class="img-fluid"></a>
                 <div class="gal-info">
                     <h5>Deimos Imaging<span class="decription"> Utilizamos el poder de las imágenes para fortalecer procesos de toma de decisiones. </span> </h5>
                 </div>
             </div>
 
             <div class="col-md-4 gal-img">
-                <a href="{{url('/servicios/geoespaciales/ecopia')}}"><img src="/images/solucionesGeomatica/servicios/index/ecopia.png" alt="w3pvt" class="img-fluid"></a>
+                <a href="{{url('/servicios/geoespaciales/eagle-mapping')}}"><img  style="height: 100px"  src="/images/solucionesGeomatica/servicios/index/em-logo.png" alt="w3pvt" class="img-fluid"></a>
+                <div class="gal-info">
+                    <h5>Eagle Mapping<span class="decription">Eagle Mapping EM produce mapas precisos de alta calidad a partir de levantamientos LiDAR y de Fotografías Aéreas</span></h5>
+                </div>
+            </div>
+
+            <div class="col-md-4 gal-img">
+                <a href="{{url('/servicios/geoespaciales/ecopia')}}"><img style="height: 100px"  src="/images/solucionesGeomatica/servicios/index/ecopia.png" alt="w3pvt" class="img-fluid"></a>
                 <div class="gal-info">
                     <h5>Ecopia<span class="decription">
                             Proveedor de productos cartográficos de alta definición (HD) a escala global precisas, escalables y actualizadas.
@@ -181,13 +188,7 @@
             <!-- 
                    
 
-                    <div class="col-md-4 gal-img">
-                    <a href="{{url('/servicios/geoespaciales/eagle-mapping')}}"><img src="/images/g2.jpg" alt="w3pvt"
-                                                                         class="img-fluid"></a>
-                    <div class="gal-info">
-                        <h5>Eagle Mapping<span class="decription">Adquisión y procesamiento de información espacial</span></h5>
-                    </div>
-                </div>
+                    
                 <div class="col-md-4 gal-img">
                     <a href="{{url('/servicios/geoespaciales/iopenfme')}}"><img src="/images/g3.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
