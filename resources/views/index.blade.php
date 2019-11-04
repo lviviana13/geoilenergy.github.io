@@ -41,20 +41,7 @@
             <label for="slide3" class="radio-btn"></label>
         </div>
     </div>
-    <!-- banner-hny-info -->
 
-
-    <div class="banner-hny-info">
-        <h3>World´s best energy and technology
-            <br>solutions at your hands</h3>
-        <div class="top-buttons mx-auto text-center mt-md-5 mt-3">
-            <a href="{{url('/nosotros')}}" class="btn more mr-2">Nosotros</a>
-            <a href="{{url('/contacto')}}" class="btn">Contácto</a>
-        </div>
-
-
-    </div>
-    <!-- //banner-hny-info -->
 </div>
 <!-- //banner slider -->
 
@@ -63,148 +50,300 @@
 <!-- //home -->
 
 
-<!--Sobre la compañia y servicios-->
+
+<!--servicios-->
+<section class="py-5">
+    <div class="container">
+        <div class="row inner_sec_info">
+
+            <div class="container p-md-1">
+                <div class="about-hny-info text-center ">
+                    <h3 style="font-size: 4em;" class="tittle-w3ls mb-3"> Geo
+                        <span class="pink"> Oil </span>
+                        Energy </h3>
+                    <h4 style="font-size: 3em;">
+                        The World´s best energy and technology <br>
+                        solutions at your hands </h4> <br> <br>
+
+                    <div class="circle">
+
+                        <img class="img-circle" src="/images/index/uno.jpg" alt="">
+                    </div>
+                    <div class="circle">
+                        <img class="img-circle" src="/images/index/dos.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!--/ servicios-->
+
+<!--Sobre la compañia -->
 <section class="banner_bottom py-5">
     <div class="container py-md-5">
         <div class="row inner_sec_info">
 
             <div class="container p-md-1">
-                <div class="about-hny-info text-left px-md-5">
+                <div class="about-hny-info px-md-5">
                     <h3 class="tittle-w3ls mb-3"><span class="pink">Nuestra</span> Compañia</h3>
                     <p class="sub-tittle mt-3 mb-4">Geo Oil Energy es una compañía internacional especializada en la representación,
                         comercialización y distribución para Canadá y el mercado Latinoamericano, de productos y servicios de compañías
-                        expertas en las áreas de: Geología, Geofísica, Geomática e Ingeniería, con sus oficinas principales en Calgary, Canadá y Bogotá, Colombia</p>
+                        expertas en las áreas de: Geología, Geofísica, Geomática e Ingeniería, con sus oficinas principales en Calgary, Canadá y Bogotá, Colombia.</p>
                     <a class="btn more black" href="{{url('/nosotros')}}" role="button">Leer más</a>
                 </div>
             </div>
 
-           
-            </div>
+
         </div>
+    </div>
 
     </div>
 </section>
-<!--//Sobre la compañia y servicios-->
-
-
-
-
-<!--/services-->
-<section class="services" id="services">
-    <div class="over-lay-blue py-2">
-        <div class="container py-md-5">
-            <div class="row my-4">
-                <div class="col-lg-5 services-innfo pr-5">
-                    <h3 class="tittle-w3ls two mb-3 text-left"><span class="pink">“Vivimos con nuestros clientes el proceso de lograr sus resultados”</span> </h3>
-                    <p class="sub-tittle mt-2 mb-sm-3 text-left">
-                        Ofrecemos soluciones enfocadas a las necesidades de la
-                        industria y nos comprometemos con nuestros clientes mas
-                        allá de un contacto o negocio.
-                        
-                       
-                        <br>  <br>
-                    </p>
-                </div>
-                <div class="col-lg-7 services-grid-inf">
-                    <div class="row services-w3pvt-main mt-5">
-                        <div class="col-lg-6 feature-gird">
-                            <div class="row features-hny-inner-gd mt-3">
-                                <div class="col-md-2 featured_grid_left">
-                                    <div class="icon_left_grid">
-                                        <span class="fa fa fa-handshake-o" aria-hidden="true"></span>
-                                    </div>
-                                </div>
-                                <div class="col-md-10 featured_grid_right_info">
-                                    <h4>Servicios</h4>
-                                    <p>Ofrecemos soluciones de vanguardia, con el objetivo de ayudar a nuestros clientes a
-                                generar resultados satisfactorios en sus proyectos.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 feature-gird">
-                            <div class="row features-hny-inner-gd mt-3">
-                                <div class="col-md-2 featured_grid_left">
-                                    <div class="icon_left_grid">
-                                        <span class="fa fa-globe" aria-hidden="true"></span>
-                                    </div>
-                                </div>
-                                <div class="col-md-10 featured_grid_right_info">
-                                    <h4>Software</h4>
-                                    <p>Apoyados en el uso de tecnología de vanguardia junto con la experiencia y
-                                experticia de los consultores de nuestros asociados, Geo Oil Energy le ofrece servicios de soporte y asesoría para su compañia.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--//services-->
-
+<!--//Sobre la compañia -->
 
 <!-- /Aliados-->
-<section class="projects py-5" id="gallery">
-    <div class="container py-md-5">
-        <div class="row news-grids mt-md-5 mt-4 text-center">
-            <div class="col-md-4 gal-img">
-                <h5>Aliados Tecnologicos<span class="decription"></span></h5>
 
-              
+<section class="projects text-center py-5" id="gallery">
+    <div class="container">
+        <h3 class="tittle-w3ls  "><span class="pink">Aliados</span> Tecnologicos </h3>
+        <div class="row news-grids text-center">
+
+            <div class="col-md-3 gal-img">
+
                 <div class="slider">
                     <ul>
-                    <li> <img src="images/aliados/representaciones/bmg.png" alt="">  </li>
-                         <li><img src="images/aliados/representaciones/geomodeling.png" alt="">                    </li>
-                                        <li>
-                        <img src="images/aliados/representaciones/hds2000.png" alt="">
-                        </li>
-                                        <li>
-                        <img src="images/aliados/representaciones/seisware.png" alt="">
-                        </li>          
+                        <li><img src="images/aliados/aliadosTecnologicos/ecopia.png" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/structuresolver.png" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/globeclaritas.png" alt=""> </li>
+                        <li></li>
                     </ul>
                 </div>
-               
-        
-
 
             </div>
-            <div class="col-md-4 gal-img">
-                <h5>Nuestras Representaciones<span class="decription"></span></h5>
-              
+            <div class="col-md-3 gal-img">
                 <div class="slider">
                     <ul>
-                        <li> <img src="images/aliados/representaciones/bmg.png" alt="">  </li>
-                         <li><img src="images/aliados/representaciones/geomodeling.png" alt="">                    </li>
-                                        <li>
-                        <img src="images/aliados/representaciones/hds2000.png" alt="">
-                        </li>
-                                        <li>
-                        <img src="images/aliados/representaciones/seisware.png" alt="">
-                        </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/ecopia.png" alt=""> </li>
+
+                        <li><img src="images/aliados/aliadosTecnologicos/estructuresolver.png" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/eecopia.png" alt=""> </li>
+                        <li></li>
                     </ul>
                 </div>
-              
+
             </div>
-            <div class="col-md-4 gal-img">
-                <h5>Nuestros Clientes<span class="decription"></span></h5>
-               
+            <div class="col-md-3 gal-img">
                 <div class="slider">
                     <ul>
-                    <li> <img src="images/aliados/representaciones/bmg.png" alt="">  </li>
-                         <li><img src="images/aliados/representaciones/geomodeling.png" alt="">                    </li>
-                                        <li>
-                        <img src="images/aliados/representaciones/hds2000.png" alt="">
-                        </li>
-                                        <li>
-                        <img src="images/aliados/representaciones/seisware.png" alt="">
-                        </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/ecopia.png" alt=""> </li>
+
+                        <li><img src="images/aliados/aliadosTecnologicos/estructuresolver.png" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/eecopia.png" alt=""> </li>
+                        <li></li>
                     </ul>
                 </div>
-                
+
+            </div>
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li><img src="images/aliados/aliadosTecnologicos/ecopia.png" alt=""> </li>
+
+                        <li><img src="images/aliados/aliadosTecnologicos/estructuresolver.png" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/eecopia.png" alt=""> </li>
+                        <li></li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </div>
 </section>
 <!-- //Aliados-->
+
+
+<!-- /Aliados-->
+
+<section class="projects text-center " id="gallery">
+    <div class="container">
+        <h3 class="tittle-w3ls  "><span class="pink">Nuestras</span> Representaciones</h3> <br>
+        <div class="row news-grids text-center">
+
+            <div class="col-md-3 gal-img">
+
+                <div class="slider">
+                    <ul>
+                        <li> <img src="images/aliados/representaciones/bmg.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/geomodeling.png" alt=""> </li>
+                        <li>
+                            <img src="images/aliados/representaciones/hds2000.png" alt="">
+                        </li>
+                        <li>
+                            <img src="images/aliados/representaciones/seisware.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li> <img src="images/aliados/representaciones/bmg.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/geomodeling.png" alt=""> </li>
+                        <li>
+                            <img src="images/aliados/representaciones/hds2000.png" alt="">
+                        </li>
+                        <li>
+                            <img src="images/aliados/representaciones/seisware.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li> <img src="images/aliados/representaciones/bmg.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/geomodeling.png" alt=""> </li>
+                        <li>
+                            <img src="images/aliados/representaciones/hds2000.png" alt="">
+                        </li>
+                        <li>
+                            <img src="images/aliados/representaciones/seisware.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li> <img src="images/aliados/representaciones/bmg.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/geomodeling.png" alt=""> </li>
+                        <li>
+                            <img src="images/aliados/representaciones/hds2000.png" alt="">
+                        </li>
+                        <li>
+                            <img src="images/aliados/representaciones/seisware.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //Aliados-->
+
+
+<!-- /Clientes-->
+
+<section class="projects text-center py-5" id="gallery">
+    <div class="container">
+        <h3 class="tittle-w3ls  "><span class="pink">Nuestros</span> Clientes</h3> <br>
+        <div class="row news-grids text-center">
+
+            <div class="col-md-3 gal-img">
+
+                <div class="slider">
+                    <ul>
+                        <li> <img src="images/aliados/clientes/1.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/2.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/3.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/4.png" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li> <img src="images/aliados/clientes/5.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/6.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/7.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/8.png" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li> <img src="images/aliados/clientes/9.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/10.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/11.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/12.png" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li> <img src="images/aliados/clientes/13.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/14.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/15.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/16.jpg" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li> <img src="images/aliados/clientes/17.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/18.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/19.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/20.png" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li> <img src="images/aliados/clientes/21.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/22.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/23.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/24.jpg" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li> <img src="images/aliados/clientes/25.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/26.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/27.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/28.png" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li> <img src="images/aliados/clientes/29.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/30.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/17.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/22.png" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //Clientes-->
+
+
+<hr>
 @endsection

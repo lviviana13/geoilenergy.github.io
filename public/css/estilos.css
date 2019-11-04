@@ -1,70 +1,184 @@
-.img-person {
-    max-width: 100%;
-    /* max-height: 220px */
-    max-height: 220px;
-    /* border-radius: 0%; */
-    filter: grayscale(100%);
-    border-radius: 10%;
-}
-
-.img-person:hover {
-    filter: grayscale(80%);
-}
-
-.info-person {
-    font-size: 0.9em;
-    text-align: justify;
-}
-
-.decription-software {
-    color: blue;
-}
-
-.slider {
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
-}
-
-.slider ul {
-    display: flex;
-    padding: 0;
-    width: 400%;
-    animation: cambio 20s infinite alternate linear;
-}
-
-.slider li {
-    width: 100%;
-    list-style: none;
-}
-
-.slider img {
-    width: 100%;
-}
-
-@keyframes cambio {
-    0% {
-        margin-left: 0;
+    .img-person {
+        max-width: 100%;
+        /* max-height: 220px */
+        max-height: 220px;
+        /* border-radius: 0%; */
+        filter: grayscale(100%);
+        border-radius: 10%;
     }
-    20% {
-        margin-left: 0;
+    
+    .img-person:hover {
+        filter: grayscale(10%);
     }
-    25% {
-        margin-left: -100%;
+    
+    .info-person {
+        font-size: 0.9em;
+        text-align: justify;
     }
-    45% {
-        margin-left: -100%;
+    
+    .decription-software {
+        color: blue;
     }
-    50% {
-        margin-left: -200%;
+    
+    .slider {
+        width: 95%;
+        margin: auto;
+        overflow: hidden;
     }
-    70% {
-        margin-left: -200%;
+    
+    .slider ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+        animation: cambio 20s infinite alternate linear;
     }
-    75% {
-        margin-left: -300%;
+    
+    .slider li {
+        width: 100%;
+        list-style: none;
     }
-    100% {
-        margin-left: -300%;
+    
+    .slider img {
+        width: 100%;
+        max-height: 100px;
     }
-}
+    
+    @keyframes cambio {
+        0% {
+            margin-left: 0;
+        }
+        20% {
+            margin-left: 0;
+        }
+        25% {
+            margin-left: -100%;
+        }
+        45% {
+            margin-left: -100%;
+        }
+        50% {
+            margin-left: -200%;
+        }
+        70% {
+            margin-left: -200%;
+        }
+        75% {
+            margin-left: -300%;
+        }
+        100% {
+            margin-left: -300%;
+        }
+    }
+    
+    #cssmenu {
+        float: right;
+        padding: 15px;
+        margin: 0;
+        border: 0;
+    }
+    
+    #cssmenu ul,
+    #cssmenu li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #cssmenu ul {
+        position: relative;
+        z-index: 597;
+    }
+    
+    #cssmenu ul li {
+        float: left;
+        min-height: 1px;
+        vertical-align: middle;
+    }
+    
+    #cssmenu ul li.hover,
+    #cssmenu ul li:hover {
+        position: relative;
+        z-index: 599;
+        cursor: default;
+    }
+    
+    #cssmenu ul ul {
+        visibility: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 598;
+        width: 100%;
+    }
+    
+    #cssmenu ul ul li {
+        float: none;
+    }
+    
+    #cssmenu ul ul ul {
+        top: 0;
+        left: auto;
+        right: -10.5%;
+    }
+    
+    #cssmenu ul li:hover>ul {
+        visibility: visible;
+    }
+    
+    #cssmenu ul ul {
+        bottom: 0;
+        left: 0;
+    }
+    
+    #cssmenu ul ul {
+        margin-top: 0;
+    }
+    
+    #cssmenu ul ul li {
+        font-weight: normal;
+    }
+    
+    #cssmenu a {
+        display: block;
+        line-height: 1em;
+        text-decoration: none;
+        color: #fff;
+        font-size: 13px;
+        letter-spacing: 1px;
+        padding: 10px;
+        font-weight: 600;
+        margin: 0 0.5em;
+        text-transform: uppercase;
+    }
+    
+    #cssmenu .sub-menu {
+        margin: 0 0.5em;
+        padding: 15px;
+        width: 150px;
+        color: rgb(0, 0, 0);
+        background-color: cornsilk;
+    }
+    
+    .img-circle {
+        width: 390px;
+        height: 390px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        border: 10px solid #e2da3b;
+        border-right-color: #7cb8d6;
+        border-bottom-color: #33a7cc;
+    }
+    
+    .circle {
+        position: relative;
+        float: left;
+        box-sizing: border-box;
+        width: 50%;
+    }
+    
+    .img-circle:hover {
+        border: 10px solid #7cb8d6;
+        border-right-color: #33a7cc;
+        border-bottom-color: #e2da3b;
+    }

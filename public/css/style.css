@@ -566,13 +566,13 @@ li>a:only-child:after {
 /* background images for banner */
 
 .banner-w3pvt-1 {
-    background: url(../images/banner1.jpg) no-repeat top;
+    background: url(../images/banner3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 800px;
+    min-height: 00px;
 }
 
 .banner-w3pvt-2 {
@@ -582,7 +582,7 @@ li>a:only-child:after {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 800px;
+    min-height: 400px;
 }
 
 .banner-w3pvt-3 {
@@ -592,12 +592,12 @@ li>a:only-child:after {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 800px;
+    min-height: 400px;
 }
 
 .overlay-w3ls {
     background: rgba(0, 0, 0, 0.55);
-    min-height: 800px;
+    min-height: 400px;
 }
 
 .images-inner {

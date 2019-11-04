@@ -185,30 +185,16 @@
                 </div>
             </div>
 
-            <!-- 
-                   
-
-                    
-                <div class="col-md-4 gal-img">
-                    <a href="{{url('/servicios/geoespaciales/iopenfme')}}"><img src="/images/g3.jpg" alt="w3pvt" class="img-fluid"></a>
-                    <div class="gal-info">
-                        <h5>iOpen & FME<span class="decription">Automatización de procesos</span></h5>
-                    </div>
+    
                 </div>
-                <div class="col-md-4 gal-img">
-                    <a href="{{url('/servicios/geoespaciales/sigoe')}}"><img src="/images/g4.jpg" alt="w3pvt" class="img-fluid"></a>
+                <div class="col-md-4 gal-img text-center">
+                    <a href="{{url('/servicios/geoespaciales/sigoe')}}"><img  style="height: 150px" src="/images/software/index/sigoe.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>SIGOE<span class="decription">Web Mapping</span></h5>
+                        <h5>SIGOE<span class="decription">GOE provee una solución en nuestros servidores o en la nube (SIGOE) que maximiza el poder de los datos suministrando inteligencia empresarial para el sector de hidrocarburos.</span></h5>
                     </div>
                 </div>
 
-                
-                <div class="col-md-4 gal-img">
-                    <a href="{{url('/servicios/geoespaciales/drones')}}"><img src="/images/g6.jpg" alt="w3pvt" class="img-fluid"></a>
-                    <div class="gal-info">
-                        <h5>Drones<span class="decription">Servicio de drones</span></h5>
-                    </div>
-                </div> -->
+           
 
         </div>
     </div>
