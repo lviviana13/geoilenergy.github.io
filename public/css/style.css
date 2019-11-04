@@ -1325,7 +1325,7 @@ ol.breadcrumb li a {
     border: none;
     outline: none;
     background: rgba(247, 247, 247, 0.29);
-    color: #fff;
+    color: rgb(0, 0, 0);
     border-radius: 0;
     font-size: 0.9em;
     letter-spacing: 2px;

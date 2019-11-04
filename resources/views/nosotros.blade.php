@@ -3,10 +3,10 @@
 
 @section('content')
 <!-- about -->
-<section class="about py-5">
+<section class="about ">
     <div class="container py-md-5">
         <div class="about-hny-info text-left pr-lg-5">
-            <h3 class="tittle-w3ls mb-3"><span class="pink">Quiénes</span> Somos</h3>
+            <h3 class="tittle-w3ls mb-3 text-center"><span class="pink">Quiénes</span> Somos</h3>
             <p style="text-align:justify"> Somos una compañia de servicios Colombo-Canadiense con extensa experiencia en las industrias Oil & Gas y Mineria cuya principal distinción es la alta calidad y beneficio en los productos y serviciosofrecidos así como la
                 amplía gama de soluciones, desde flujos de trabajo en explotación hasta produción.
 
@@ -19,29 +19,7 @@
 <!-- //about -->
 
 
-<!--/ab-->
-<section class="banner_bottom py-5">
-    <div class="container py-md-5">
-        <div class="row inner_sec_info">
 
-            <div class="col-md-6 banner_bottom_grid help">
-                <img src="images/ab.jpg" alt=" " class="img-fluid">
-            </div>
-            <div class="col-md-6 banner_bottom_left mt-lg-0 mt-4">
-                <h4><a class="link-hny" href="services.html">
-                        Trabajemos juntos</a></h4>
-                <p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
-                    pulvinar neque pharetra ac.</p>
-                <p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
-                    pulvinar neque pharetra ac.</p>
-                <a class="btn more black mt-3" href="{{url('/contacto')}}" role="button">Contáctanos</a>
-
-            </div>
-        </div>
-
-    </div>
-</section>
-<!--//ab-->
 
 
 <!--/mid-->
@@ -49,7 +27,7 @@
 <section class="team " id="appointment">
 
     <div class="container ">
-        <hr>
+        
         <h3 class="tittle-w3ls mb-3 text-center"><span class="pink">Nuestro</span> Equipo</h3>
 
         <div class="row mt-lg-5 mt-4">
