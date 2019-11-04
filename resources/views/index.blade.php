@@ -283,6 +283,17 @@
             <div class="col-md-3 gal-img">
                 <div class="slider">
                     <ul>
+                        <li> <img src="images/aliados/clientes/25.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/26.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/27.png" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/28.png" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
                         <li> <img src="images/aliados/clientes/13.png" alt=""> </li>
                         <li> <img src="images/aliados/clientes/14.jpg" alt=""> </li>
                         <li> <img src="images/aliados/clientes/15.png" alt=""> </li>
@@ -316,22 +327,12 @@
 
             </div>
 
-            <div class="col-md-3 gal-img">
-                <div class="slider">
-                    <ul>
-                        <li> <img src="images/aliados/clientes/25.jpg" alt=""> </li>
-                        <li> <img src="images/aliados/clientes/26.jpg" alt=""> </li>
-                        <li> <img src="images/aliados/clientes/27.png" alt=""> </li>
-                        <li> <img src="images/aliados/clientes/28.png" alt=""> </li>
-                    </ul>
-                </div>
-
-            </div>
+            
 
             <div class="col-md-3 gal-img">
                 <div class="slider">
                     <ul>
-                        <li> <img src="images/aliados/clientes/29.jpg" alt=""> </li>
+                        <li> <img src="images/aliados/clientes/29.png" alt=""> </li>
                         <li> <img src="images/aliados/clientes/30.png" alt=""> </li>
                         <li> <img src="images/aliados/clientes/17.jpg" alt=""> </li>
                         <li> <img src="images/aliados/clientes/22.png" alt=""> </li>

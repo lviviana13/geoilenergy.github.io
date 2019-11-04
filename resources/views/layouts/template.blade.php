@@ -45,7 +45,7 @@
 
             <header class="nav_w3pvt ">
 
-            
+
 
                 <nav style="height: 60px;">
                     <div id="logo">
@@ -53,51 +53,72 @@
 
                     </div>
 
-                    
+                    <div id='cssmenu'>
+
+                        <ul class="menu mr-auto center">
+                            <li class="active"><a href="{{url('/')}}">Inicio</a></li>
+
+                            <li class='has-sub '><a href='#'>Software <span class="fa fa-angle-down" aria-hidden="true"></span> </a>
+                                <ul>
+                                    <li class='has-sub'><a href="{{url('/software/geosoluciones')}}">Software Geoespacial <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
+                                        <ul>
+                                            <li><a href="{{url('/software/geosoluciones/g-calculator')}}">Geographic Calculator</a></li>
+                                            <li><a href="{url('/software/geosoluciones/global-mapper')}}">Global Mapper</a></li>
+                                            <li><a href="{{url('/software/geosoluciones/global-mapper-ld')}}" class="sub-menu">Global Mapper / Modulo LiDAR</a>
+                                            <li><a href="{{url('/software/geosoluciones/fme')}}" class="sub-menu">FME</a>
+                                            <li><a href="{{url('/software/geosoluciones/solv3d')}}" class="sub-menu">Solv3D</a>
+                                            <li><a href="{{url('/software/geosoluciones/i-open')}}" class="sub-menu">I-Open</a>
+
+                                        </ul>
+                                    </li>
 
 
-                    <label for="drop" class="toggle">Menu</label>
-                    <input type="checkbox" id="drop" />
-                    <ul class="menu mr-auto center">
+                                    <li class='has-sub'><a href="{{url('/software/geofisica')}}">Soluciones Geología y Geofísica <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
+                                        <ul>
+                                            <li><a href="{{url('/software/geofisica/globe-claritas')}}">Globe Claritas</a></li>
+                                            <li><a href="{{url('/software/geofisica/geomodeling')}}">Geomodeling</a></li>
+                                            <li><a href="{{url('/software/geofisica/seisware-geologia')}}" class="sub-menu">Geology by SeisWare (GL)</a>
+                                            <li><a href="{{url('/software/geofisica/seisware-geofisica')}}" class="sub-menu">Geophysics by SeisWare (GP)</a>
+
+                                            <li><a href="{{url('/software/geofisica/qi')}}" class="sub-menu">QI-Pro</a>
+                                            <li><a href="{{url('/software/geofisica/structural-solver')}}" class="sub-menu">StructureSolver</a>
+                                            <li><a href="{{url('/software/geofisica/hds2000')}}">HDS 2000</a></li>
+                                            <li><a href="{{url('/software/geofisica/geovariances')}}">Geovariances (ISATIS)</a></li>
 
 
+                                        </ul>
+                                    </li>
 
-                        <li class="active"><a href="{{url('/')}}">Inicio</a></li>
-                        <li>
-                            <!-- First Tier Drop Down -->
-                            <label for="drop-2" class="toggle toogle-2">Servicios
-                                <span class="fa fa-angle-down" aria-hidden="true"></span></label>
-                            <a href="#">Servicios <span class="fa fa-angle-down" aria-hidden="true"></span></a>
-                            <input type="checkbox" id="drop-2" />
-                            <ul>
-
-
-                                <li><a href="{{url('/servicios/geoespaciales')}}" class="drop-text">Soluciones
-                                        Geoespaciales</a></li>
-
-                                <li><a href="{{url('/servicios/geologia')}}" class="drop-text">Soluciones Geología</a></li>
-                                <li><a href="{{url('/servicios/geofisica')}}" class="drop-text">Soluciones Geofísica</a>
-                                </li>
-
-                            </ul>
+                            </li>
+                        </ul>
                         </li>
-                        <li>
-                            <!-- First Tier Drop Down -->
-                            <label for="drop-3" class="toggle ">Software<span class="fa fa-angle-down" aria-hidden="true"></span></label>
-                            <a href="#">Software <span class="fa fa-angle-down" aria-hidden="true"></span></a>
-                            <input type="checkbox" id="drop-3" />
+                        <li class='has-sub '><a href='#'>Servicios <span class="fa fa-angle-down" aria-hidden="true"></span> </a>
                             <ul>
-                                <li><a href="{{url('/software/geosoluciones')}}" class="drop-text">Software Geoespacial</a>
+                                <li class='has-sub'><a href="{{url('/servicios/geoespaciales')}}">Soluciones Geoespaciales <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
+                                    <ul>
+                                        <li><a href="{{url('/servicios/geoespaciales/deimos')}}">Deimos Imaging</a></li>
+                                        <li><a href="{{url('/servicios/geoespaciales/eagle-mapping')}}">Eagle Mapping</a></li>
+                                        <li><a href="{{url('/servicios/geoespaciales/ecopia')}}" class="sub-menu">Ecopia</a>
+                                        <li><a href="{{url('/servicios/geoespaciales/sigoe')}}" class="sub-menu">SIGOE</a>
+
+                                    </ul>
                                 </li>
-                                <li><a href="{{url('/software/geofisica')}}" class="drop-text">Software Geología y
-                                        Geofísica</a></li>
+
+                                <li><a href="{{url('/servicios/geologia')}}" class="sub-menu">Soluciones Geología</a></li>
+                                <li><a href="{{url('/servicios/geofisica')}}" class="sub-menu">Soluciones Geofísica</a>
+
+                                </li>
                             </ul>
                         </li>
                         <li><a href="{{url('/nosotros')}}">Nosotros</a></li>
 
                         <li><a href="{{url('/contacto')}}">Contacto</a></li>
+                        </ul>
 
-                    </ul>
+                    </div>
+
+
+
 
                 </nav>
 
