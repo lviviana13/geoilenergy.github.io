@@ -277,7 +277,7 @@ li>a:only-child:after {
         letter-spacing: 1px;
     }
     .toggle:hover {
-        color: #333;
+        color: rgb(255, 0, 0);
         background-color: #fff;
     }
     /* Display Dropdown when clicked on Parent Lable */
@@ -954,7 +954,7 @@ section#gallery {
 }
 
 .gal-info:hover {
-    background: rgb(1, 20, 27);
+    background: #80BBDF;
     transition: .5s ease-in;
     -webkit-transition: .5s ease-in;
     -moz-transition: .5s ease-in;
@@ -1245,7 +1245,7 @@ section.hand-crafted p {
 /*--/inner-w3pvt-page-- */
 
 .inner-w3pvt-page {
-    background: url(../images/banner1.jpg) no-repeat center;
+    background: url(../images/index/slide1.png) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

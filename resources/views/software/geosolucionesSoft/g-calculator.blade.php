@@ -13,7 +13,7 @@
                     
                     <div class="row about-w3pvt-top mt-2">
                         <div class="col-lg-6 about-info">
-                            <h4 class="title-hny mb-3">Características</h4>
+                            <h3 class="title-hny my-2">Características</h3>
                             <p>El software proporciona una plataforma única para la transformación de coordenadas de alta precisión de prácticamente cualquier tipo de datos geoespaciales e incluye características tales como:<br> <br>
                                 <strong>Soporte a bases de datos</strong>, soportando gran cantidad de formatos como:Excel (.xls, xlsx), dBase (.dbf), Access (.mdb), ASCII (.csv, tsv), OBDC, y muchos
                                 más. El usuario puede hacer cálculos geodésicos en más de 250 tipos de archivos distintos.
@@ -22,9 +22,10 @@
                                 <br>
                                 <strong>Conversión de survey sísmico</strong>, en la cual los usuarios pueden acceder, mantener y convertir información SEG, SPS, UKOOA, de formato ASCII de manera rapida y eficiente, realizando tareas como: conversión de múltiples tipos de registros en el mismo archivo, preservar y actualizar metadatos adjuntos en todos los archivos y convertir grillas y conjunto de registros geodésicos.
                                 <br>
-                                <strong>Soporte a coordenadas 3D:</strong> incluye más transformaciones verticales y definiciones de geoide que cualquier otro software SIG. El soporte para la transformación vertical y horizontal permite un procesamiento de datos 3D preciso, particularmente útil para archivos LiDAR, modelos digitales de elevación y otros modelos de terreno. Con amplia cantidad de Geoides incluyendo el VDatum. Los usuarios pueden, incluso, crear un desplazamiento a partir de un Geoide para afinar su precisión.
-                                <br>
-                                También es compatible con los modelos de Posicionamiento Hsorizontal Dependiente del Tiempo (HTDP), que proporcionan los medios para predecir y ajustar las transformaciones de datos relacionadas con los movimientos de la corteza terrestre a lo largo del tiempo.
+                                <strong>Soporte a coordenadas 3D:</strong> incluye más transformaciones verticales y definiciones de geoide
+                                 que cualquier otro software SIG. 
+                                 
+                                
 <br>
                                 <strong>Georreferenciación interactiva</strong>, seleccionando los puntos de control/referencia.
                                 <br>
@@ -38,7 +39,7 @@
                         <div class="col-lg-6 about-info">
                         <hr>
                         <p class="text-center"><img class="img-fluid" style="max-height: 400px"  src="/images/software/g-calculator/uno.png" alt=""></p> <hr>
-                            <h4 class="title-hny mb-3">ASPECTOS DESTACADOS</h4>
+                            <h3 class="title-hny mb-3">ASPECTOS DESTACADOS</h3>
 
                             <ul>
                             <li class="list-group-item">
@@ -56,12 +57,14 @@
                             
                             </ul>
                             <br>
-                                <p class="text-center"><img class="img-fluid" style="max-height: 400px"  src="/images/software/g-calculator/dos.png" alt=""></p>
+                                
                         </div>
                     </div>
                     <br>
-                    <h3 class="title-hny my-2">GESTION DE DATOS GEOESPACIALES A SU ALCANCE</h3>
+                    <h3 class="title-hny my-2">GESTION DE DATOS GEOESPACIALES A SU ALCANCE</h3> 
+                    <br>
                     <p>Geographic Calculator es ampliamente reconocido como la herramienta más importante para abordar y resolver los más complejos y exigentes retos geodésicos. Esta potente aplicación se ha convertido en una parte esencial para la gestión de datos geográficos para empresas, organizaciones, y usuarios particulares donde los datos espaciales deben ser precisos y consistentes. A la hora de elegir, profesionales SIG alrededor del mundo eligen Geographic Calculator por ser una herramienta correcta, coherente y certificable.</p>
+                    <p class="text-center"><img class="img-fluid" style="max-height: 400px"  src="/images/software/g-calculator/dos.png" alt=""></p>
                 </div>
             </div>
         </div>

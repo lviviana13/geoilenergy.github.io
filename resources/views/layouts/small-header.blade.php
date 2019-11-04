@@ -37,8 +37,6 @@
             <!--/top-nav -->
             <div class="top_w3pvt_main container">
 
-
-
                 <!--/header -->
 
                 <header class="nav_w3pvt ">
@@ -46,8 +44,8 @@
                     <nav >
                         <div id="logo">
                             <h1><a class="navbar-brand px-0 mx-0" href="{{url('/')}}"> 
-                            <img style="height: 80px;" src="../../images/index/logo_geoil.png " alt=""> 
-                            <img style="height: 80px;" src="../../images/index/logo_geoin.png " alt=""> </a></h1>
+                            <img style="height: 100px;" src="../../images/index/logo_geoil.png " alt=""> 
+                            <img style="height: 100px;" src="../../images/index/logo_geoin.png " alt=""> </a></h1>
 
                         </div>
 

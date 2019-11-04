@@ -38,11 +38,7 @@
 
                         </ul>
 
-
                     </div>
-
-
-
 
                 </div>
                 <hr>
@@ -129,6 +125,6 @@
         </div>
     </div>
 </section>
-<!-- //single -->
+
 
 @endsection
