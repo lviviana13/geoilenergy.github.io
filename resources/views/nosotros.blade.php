@@ -35,13 +35,13 @@
                 </ul>
             </div>
             <div class="col-lg-9 about-info">
-                <h3> Oscar</h3>
-                <span class="sub-tittle-team">Jefe</span>
+                <h3> Oscar Orduz</h3>
+                <span class="sub-tittle-team">Vicepresidente</span>
                 <p class="info-person"> Ingeniero Catastral y Geodesta con especialización en Sistemas de Información Geográfica (SIG) e Ingeniería de Software y en Gerencia de Proyectos y Administración de Negocios.
-Más de 26 años de experiencia en distintas industrias como petróleo y gas, oleoductos, líneas de transmisión eléctrica y ferrocarriles entre otras liderando proyectos en el uso e implementación de SIG y tecnologías web mapping en Colombia, Canadá, Republica Dominicana y Chile, variando desde la identificación de requerimientos, adquisición de información geoespacial, control de calidad, hasta administración de datos, su integración a nivel corporativo, maximización del valor de datos para uso en diseño, construcción y operación de proyectos de ingeniería e infraestructura con costos desde pocos miles hasta proyectos de más de 1.5 Billones de dólares.
-Capacidad para proveer liderazgo estratégico, experiencia técnica, análisis de procesos, planeación y ejecución de proyectos, integrando soluciones y equipos de trabajo aumentando eficiencias y maximizando la propuesta de valor de las organizaciones donde participa.
-Como socio fundador de Geo Oil Energy es responsable de la ejecución de proyectos, aseguramiento de calidad, la identificación de necesidades y su resolución con soluciones de última tecnología alcanzables en tiempos cortos y asegurando la satisfacción de nuestros clientes. 
- </p>
+                    Más de 26 años de experiencia en distintas industrias como petróleo y gas, oleoductos, líneas de transmisión eléctrica y ferrocarriles entre otras liderando proyectos en el uso e implementación de SIG y tecnologías web mapping en Colombia, Canadá, Republica Dominicana y Chile, variando desde la identificación de requerimientos, adquisición de información geoespacial, control de calidad, hasta administración de datos, su integración a nivel corporativo, maximización del valor de datos para uso en diseño, construcción y operación de proyectos de ingeniería e infraestructura con costos desde pocos miles hasta proyectos de más de 1.5 Billones de dólares.
+                    Capacidad para proveer liderazgo estratégico, experiencia técnica, análisis de procesos, planeación y ejecución de proyectos, integrando soluciones y equipos de trabajo aumentando eficiencias y maximizando la propuesta de valor de las organizaciones donde participa.
+                    Como socio fundador de Geo Oil Energy es responsable de la ejecución de proyectos, aseguramiento de calidad, la identificación de necesidades y su resolución con soluciones de última tecnología alcanzables en tiempos cortos y asegurando la satisfacción de nuestros clientes.
+                </p>
             </div>
         </div>
 
