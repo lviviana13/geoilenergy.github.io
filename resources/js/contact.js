@@ -8,7 +8,6 @@ function formSend() {
         showCancelButton: true,
         cancelButtonText: 'No! Cancelar',
         confirmButtonText: 'Si! Enviar',
-        showLoaderOnConfirm: true,
     }).then(isConfirm => {
         if (isConfirm.value) {
             let form = document.getElementById('contactForm');
@@ -26,7 +25,11 @@ function formSend() {
 
                 throw new Error('Ha ocurrido un error')
             }).then(respuesta => {
-                console.log(respuesta)
+                if (respuesta.resp === 1) {
+                    Swal.fire('Correcto', 'Se ha enviado el mensaje', 'success')
+                } else {
+                    Swal.fire('Oops', 'Ha ocurrido un error', 'error')
+                }
             }).catch(error => {
                 console.log(error)
             })

@@ -21,8 +21,6 @@ Route::get('/software/{idsoftware}/{idsubsoftware?}', 'SoftwareController@softwa
 
 Route::get('/nosotros', 'NosotrosController@index');
 Route::get('/aliados', 'AliadosController@index');
-Route::get('/contacto', 'ContactoController@index');
+Route::get('/{lenguaje}/contacto', 'ContactoController@index');
 
-// Route::get('/enprueba', function () {
-//  return view('en.software.geofisica', ['title' => 'welcome al barrio' ]);
-// } );
+route::post('/contact', 'ContactoController@form');
