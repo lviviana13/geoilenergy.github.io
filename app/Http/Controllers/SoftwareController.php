@@ -6,26 +6,57 @@ use Illuminate\Http\Request;
 
 class SoftwareController extends Controller
 {
-    public function software($idsoftware, $idsubsoftware = null)
+    public function software($lenguaje = null, $idsoftware, $idsubsoftware = null)
     {
+
         switch (strtolower($idsoftware)) {
             case 'geosoluciones':
-                return (isset($idsubsoftware))
-                    ? $this->geosoluciones($idsubsoftware)
-                    : view('software.geosoluciones',
-                           [
-                               'title' => 'Geosoluciones'
-                           ]
-                    );
+
+                if (isset($idsubsoftware) ) {
+                    return  $this->geosoluciones($idsubsoftware, $lenguaje);
+                } else {
+
+                    if (isset($lenguaje) && $lenguaje == 'en') {
+                        return view(
+                            'en.software.geosoluciones',
+                            [
+                                'title' => 'Geosolutions'
+                            ]
+                        );
+                    } else {
+                        return view(
+                            'es.software.geosoluciones',
+                            [
+                                'title' => 'Geosoluciones'
+                            ]
+                        );
+                    }
+                }
+
                 break;
             case 'geofisica':
-                return (isset($idsubsoftware))
-                    ? $this->geofisica($idsubsoftware)
-                    : view('software.geofisica',
-                           [
-                               'title' => 'Geofisica'
-                           ]
-                    );
+
+                if (isset($idsubsoftware)) {
+                    return  $this->geofisica($idsubsoftware, $lenguaje);
+                } else {
+
+                    if (isset($lenguaje) && $lenguaje == 'en') {
+                        return view(
+                            'en.software.geofisica',
+                            [
+                                'title' => 'G&G'
+                            ]
+                        );
+                    } else {
+                        return view(
+                            'es.software.geofisica',
+                            [
+                                'title' => 'G&G'
+                            ]
+                        );
+                    }
+                }
+
                 break;
             default:
                 return view('index');

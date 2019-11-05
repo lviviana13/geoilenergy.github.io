@@ -8,6 +8,7 @@
     <input type="radio" class="cs_anchor radio" name="slider" id="slide1" />
     <input type="radio" class="cs_anchor radio" name="slider" id="slide2" />
     <input type="radio" class="cs_anchor radio" name="slider" id="slide3" />
+    <input type="radio" class="cs_anchor radio" name="slider" id="slide4" />
     <div class="images">
         <div class="images-inner">
             <div class="image-slide">
@@ -32,6 +33,13 @@
                     </div>
                 </div>
             </div>
+            <div class="image-slide">
+                <div class="banner-w3pvt-4">
+                    <div class="overlay-w3ls">
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="labels">
@@ -39,6 +47,7 @@
             <label for="slide1" class="radio-btn"></label>
             <label for="slide2" class="radio-btn"></label>
             <label for="slide3" class="radio-btn"></label>
+            <label for="slide4" class="radio-btn"></label>
         </div>
     </div>
 
@@ -90,11 +99,11 @@
                 <div class="about-hny-info px-md-5">
                     <h3 class="tittle-w3ls mb-3"><span class="pink">Our</span> Company</h3>
                     <p class="sub-tittle mt-3 mb-4">
-                    Geo Oil Energy (GOE) is an international company specialized in the representation, 
-                    commercialization and distribution in the Canadian and the Latin American markets for
-                     the products and services of companies with expertise in the areas of: Geology, Geophysics, 
-                     Geomatics and Engineering, with its main offices in Calgary, Canada and Bogotá, Colombia.
-                    
+                        Geo Oil Energy (GOE) is an international company specialized in the representation,
+                        commercialization and distribution in the Canadian and the Latin American markets for
+                        the products and services of companies with expertise in the areas of: Geology, Geophysics,
+                        Geomatics and Engineering, with its main offices in Calgary, Canada and Bogotá, Colombia.
+
                     </p>
                     <a class="btn more black" href="{{url('/nosotros')}}" role="button">Read More</a>
                 </div>
@@ -331,7 +340,7 @@
 
             </div>
 
-            
+
 
             <div class="col-md-3 gal-img">
                 <div class="slider">

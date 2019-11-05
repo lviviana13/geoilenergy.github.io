@@ -14,7 +14,7 @@
                 <div class="row about-w3pvt-top mt-2">
                     <div class="col-lg-6 about-info">
                         <h3 class="title-hny my-2">CHARACTERISTICS</h3>
-                        <p>Geographic Calculator provides a single platform for highly accurate coordinate transformation of virtually any type of geospatial data and includes features such as:<br> 
+                        <p>Geographic Calculator provides a single platform for highly accurate coordinate transformation of virtually any type of geospatial data and includes features such as:<br>
                             <strong>Extensive support to databases,</strong> supporting a large number of formats such as Excel (.xls, xlsx), dBase (.dbf), Access (.mdb), ASCII (.csv, tsv), OBDC, and many more. The user can do geodesic calculations in more than 250 different file types. <br>
                             <strong>Conversion of point databases,</strong> which allows the user to convert and transform simple and organized coordinates, there is no limit on the size of the database of points and vectors that support manual transformations with scaling, translation and rotation parameters.</p>
                         <br>
@@ -23,9 +23,9 @@
 
 
                         <br>
-                        <strong>Interactive georeferencing, </strong>selecting the control / reference points.  <br>
-		<strong>selecting the control / reference points</strong> such as: GeoTIFF, MapInfo Table, ESRI World (TFW, WLD, JGW). <br>
-		<strong>ESRI extension and CAD support, </strong>the user can define the coordinate transformations in the ArcMap by area of use, using the ESRI projection engine and the Blue Marble GeoCalc Engine, and in addition it has points of transfer of possible control points to split of ArcView, MapInfo, and AutoCAD de MircoStation.
+                        <strong>Interactive georeferencing, </strong>selecting the control / reference points. <br>
+                        <strong>selecting the control / reference points</strong> such as: GeoTIFF, MapInfo Table, ESRI World (TFW, WLD, JGW). <br>
+                        <strong>ESRI extension and CAD support, </strong>the user can define the coordinate transformations in the ArcMap by area of use, using the ESRI projection engine and the Blue Marble GeoCalc Engine, and in addition it has points of transfer of possible control points to split of ArcView, MapInfo, and AutoCAD de MircoStation.
                         </p>
                     </div>
                     <div class="col-lg-6 about-info">
@@ -38,15 +38,15 @@
                             <li class="list-group-item">
 
                                 <p>• Supports 250+ file formats<br>
-			• Support for reading and writing coordinate systems and transformations to and from Petrel™ CTL files.<br>
-			• Access to the new GeoCalc geodetic registry. <br>
-			• XML-based geodetic parameter library.<br>
-			• Unmatched Geoid or Vertical Datum support, including VDatum support.<br>
-			• Powerful Survey Seismic format support including new Seismic Survey QC Job.<br>
-			• Raster geo-referencing, projecting, and vector file translation tools.<br>
-			• The ability to customize and send all or part of your GeoCalc datasource to Global Mapper.<br>
-			• Esri Extension and powerful CAD support.<br>
-			• Great compatibility with seismic record formats, conversion of ASCII data formatted in SEG, SPS and UKOOA more quickly and efficiently.</p>
+                                    • Support for reading and writing coordinate systems and transformations to and from Petrel™ CTL files.<br>
+                                    • Access to the new GeoCalc geodetic registry. <br>
+                                    • XML-based geodetic parameter library.<br>
+                                    • Unmatched Geoid or Vertical Datum support, including VDatum support.<br>
+                                    • Powerful Survey Seismic format support including new Seismic Survey QC Job.<br>
+                                    • Raster geo-referencing, projecting, and vector file translation tools.<br>
+                                    • The ability to customize and send all or part of your GeoCalc datasource to Global Mapper.<br>
+                                    • Esri Extension and powerful CAD support.<br>
+                                    • Great compatibility with seismic record formats, conversion of ASCII data formatted in SEG, SPS and UKOOA more quickly and efficiently.</p>
                             </li>
 
                         </ul>

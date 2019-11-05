@@ -8,6 +8,7 @@
     <input type="radio" class="cs_anchor radio" name="slider" id="slide1" />
     <input type="radio" class="cs_anchor radio" name="slider" id="slide2" />
     <input type="radio" class="cs_anchor radio" name="slider" id="slide3" />
+
     <div class="images">
         <div class="images-inner">
             <div class="image-slide">
@@ -32,6 +33,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
     <div class="labels">
@@ -39,6 +41,7 @@
             <label for="slide1" class="radio-btn"></label>
             <label for="slide2" class="radio-btn"></label>
             <label for="slide3" class="radio-btn"></label>
+
         </div>
     </div>
 
@@ -65,18 +68,21 @@
                         The World´s best energy and technology <br>
                         solutions at your hands </h4> <br> <br>
 
-                    <div class="circle">
+                    <div class="row about-w3pvt-top mt-2">
+                        <div class="col-lg-6 about-info">
+                            <img class="img-circle" src="/images/index/uno.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 about-info">
+                            <img class="img-circle" src="/images/index/dos.jpg" alt="">
+                        </div>
+                        <div class="circle">
 
-                        <img class="img-circle" src="/images/index/uno.jpg" alt="">
-                    </div>
-                    <div class="circle">
-                        <img class="img-circle" src="/images/index/dos.jpg" alt="">
-                    </div>
 
+
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
 </section>
 <!--/ servicios-->
@@ -104,21 +110,82 @@
 </section>
 <!--//Sobre la compañia -->
 
+
+
+
+<!-- /Representaciones -->
+<br>
+
+<section class="projects text-center " id="gallery">
+    <div class="container">
+        <h3 class="tittle-w3ls  "><span class="pink">Nuestras</span> Representaciones</h3>
+        <div class="row news-grids text-center">
+
+            <div class="col-md-3 gal-img">
+
+                <div class="slider">
+                    <ul>
+                        <li><img src="images/aliados/representaciones/1.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/2.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/10.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/2.png" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li><img src="images/aliados/representaciones/3.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/4.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/11.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/4.png" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li><img src="images/aliados/representaciones/5.jpg" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/6.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/12.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/6.png" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-3 gal-img">
+                <div class="slider">
+                    <ul>
+                        <li><img src="images/aliados/representaciones/7.svg" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/8.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/13.png" alt=""> </li>
+                        <li><img src="images/aliados/representaciones/8.png" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //Representaciones -->
+
 <!-- /Aliados-->
 
 <section class="projects text-center py-5" id="gallery">
     <div class="container">
-        <h3 class="tittle-w3ls  "><span class="pink">Aliados</span> Tecnologicos </h3>
+        <h3 class="tittle-w3ls  "><span class="pink">Aliados</span> Tecnologicos</h3> <br>
         <div class="row news-grids text-center">
 
             <div class="col-md-3 gal-img">
 
                 <div class="slider">
                     <ul>
-                        <li><img src="images/aliados/aliadosTecnologicos/ecopia.png" alt=""> </li>
-                        <li><img src="images/aliados/aliadosTecnologicos/structuresolver.png" alt=""> </li>
-                        <li><img src="images/aliados/aliadosTecnologicos/globeclaritas.png" alt=""> </li>
-                        <li></li>
+                        <li><img src="images/aliados/aliadosTecnologicos/1.png" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/2.png" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/1.png" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/2.png" alt=""> </li>
                     </ul>
                 </div>
 
@@ -126,11 +193,10 @@
             <div class="col-md-3 gal-img">
                 <div class="slider">
                     <ul>
-                        <li><img src="images/aliados/aliadosTecnologicos/ecopia.png" alt=""> </li>
-
-                        <li><img src="images/aliados/aliadosTecnologicos/estructuresolver.png" alt=""> </li>
-                        <li><img src="images/aliados/aliadosTecnologicos/eecopia.png" alt=""> </li>
-                        <li></li>
+                        <li><img src="images/aliados/aliadosTecnologicos/3.jpg" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/4.png" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/3.jpg" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/4.png" alt=""> </li>
                     </ul>
                 </div>
 
@@ -138,11 +204,10 @@
             <div class="col-md-3 gal-img">
                 <div class="slider">
                     <ul>
-                        <li><img src="images/aliados/aliadosTecnologicos/ecopia.png" alt=""> </li>
-
-                        <li><img src="images/aliados/aliadosTecnologicos/estructuresolver.png" alt=""> </li>
-                        <li><img src="images/aliados/aliadosTecnologicos/eecopia.png" alt=""> </li>
-                        <li></li>
+                        <li> <img src="images/aliados/aliadosTecnologicos/5.jpg" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/6.png" alt=""> </li>
+                        <li> <img src="images/aliados/aliadosTecnologicos/5.jpg" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/6.png" alt=""> </li>
                     </ul>
                 </div>
 
@@ -150,95 +215,19 @@
             <div class="col-md-3 gal-img">
                 <div class="slider">
                     <ul>
-                        <li><img src="images/aliados/aliadosTecnologicos/ecopia.png" alt=""> </li>
-
-                        <li><img src="images/aliados/aliadosTecnologicos/estructuresolver.png" alt=""> </li>
-                        <li><img src="images/aliados/aliadosTecnologicos/eecopia.png" alt=""> </li>
-                        <li></li>
+                        <li><img src="images/aliados/aliadosTecnologicos/4.png" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/1.png" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/4.png" alt=""> </li>
+                        <li><img src="images/aliados/aliadosTecnologicos/1.png" alt=""> </li>
                     </ul>
                 </div>
 
             </div>
         </div>
     </div>
+
 </section>
 <!-- //Aliados-->
-
-
-<!-- /Aliados-->
-
-<section class="projects text-center " id="gallery">
-    <div class="container">
-        <h3 class="tittle-w3ls  "><span class="pink">Nuestras</span> Representaciones</h3> <br>
-        <div class="row news-grids text-center">
-
-            <div class="col-md-3 gal-img">
-
-                <div class="slider">
-                    <ul>
-                        <li> <img src="images/aliados/representaciones/bmg.png" alt=""> </li>
-                        <li><img src="images/aliados/representaciones/geomodeling.png" alt=""> </li>
-                        <li>
-                            <img src="images/aliados/representaciones/hds2000.png" alt="">
-                        </li>
-                        <li>
-                            <img src="images/aliados/representaciones/seisware.png" alt="">
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="col-md-3 gal-img">
-                <div class="slider">
-                    <ul>
-                        <li> <img src="images/aliados/representaciones/bmg.png" alt=""> </li>
-                        <li><img src="images/aliados/representaciones/geomodeling.png" alt=""> </li>
-                        <li>
-                            <img src="images/aliados/representaciones/hds2000.png" alt="">
-                        </li>
-                        <li>
-                            <img src="images/aliados/representaciones/seisware.png" alt="">
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="col-md-3 gal-img">
-                <div class="slider">
-                    <ul>
-                        <li> <img src="images/aliados/representaciones/bmg.png" alt=""> </li>
-                        <li><img src="images/aliados/representaciones/geomodeling.png" alt=""> </li>
-                        <li>
-                            <img src="images/aliados/representaciones/hds2000.png" alt="">
-                        </li>
-                        <li>
-                            <img src="images/aliados/representaciones/seisware.png" alt="">
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="col-md-3 gal-img">
-                <div class="slider">
-                    <ul>
-                        <li> <img src="images/aliados/representaciones/bmg.png" alt=""> </li>
-                        <li><img src="images/aliados/representaciones/geomodeling.png" alt=""> </li>
-                        <li>
-                            <img src="images/aliados/representaciones/hds2000.png" alt="">
-                        </li>
-                        <li>
-                            <img src="images/aliados/representaciones/seisware.png" alt="">
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-<!-- //Aliados-->
-
-
 <!-- /Clientes-->
 
 <section class="projects text-center py-5" id="gallery">
@@ -327,7 +316,7 @@
 
             </div>
 
-            
+
 
             <div class="col-md-3 gal-img">
                 <div class="slider">
