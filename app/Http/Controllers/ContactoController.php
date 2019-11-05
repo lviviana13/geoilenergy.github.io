@@ -34,6 +34,8 @@ class ContactoController extends Controller
         $mail->SMTPSecure = getenv('MAIL_ENCRYPTION');
         $mail->Username   = getenv('MAIL_USERNAME');
         $mail->Password   = getenv('MAIL_PASSWORD');
+        //TODO: Destinatario del correo electronico, cambiar por el correo del administrador, cambiar funcion getenv
+        //() por el correo de la persona que va a leer el contenido del mensaje 
         $mail->setFrom(getenv('MAIL_USERNAME'), 'Geoilenergy web');
         $mail->addAddress($destinatario, $nombre);
         $mail->Subject = $contenido->subject;
