@@ -6,8 +6,12 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index()
+    public function index($lenguaje = null)
     {
-        return view('index', ['title' => 'Bienvenidos']);
+        if (isset($lenguaje) AND $lenguaje == 'en') {
+            return view('en.index', ['title' => 'Welcome']);
+        } else {
+            return view('es.index', ['title' => 'Bienvenidos']);
+        }
     }
 }

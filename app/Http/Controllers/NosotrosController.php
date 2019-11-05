@@ -6,8 +6,13 @@ use Illuminate\Http\Request;
 
 class NosotrosController extends Controller
 {
-    public function index()
+    public function index($lenguaje)
     {
-        return view('nosotros', ['title' => 'Nosotros']);
+        if(isset($lenguaje) && $lenguaje == 'en'){
+            return view('en.nosotros', ['title' => 'Sobre Nosotros']);
+        }else{
+            return view('es.nosotros', ['title' => 'About Us']);
+        }
+        
     }
 }

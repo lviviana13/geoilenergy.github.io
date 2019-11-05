@@ -11,14 +11,17 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
-
-/** Servicios */
-Route::get('/servicios/{idservicio}/{idsubservicio?}', 'ServiciosController@servicios');
+Route::get('/{lenguaje?}', 'HomeController@index');
 
 /** Softtware */
-Route::get('/software/{idsoftware}/{idsubsoftware?}', 'SoftwareController@software');
+Route::get('/{lenguaje}/software/{idsoftware}/{idsubsoftware?}', 'SoftwareController@software');
 
-Route::get('/nosotros', 'NosotrosController@index');
-Route::get('/aliados', 'AliadosController@index');
-Route::get('/contacto', 'ContactoController@index');
+/** Servicios */
+Route::get('/{lenguaje}/servicios/{idservicio}/{idsubservicio?}', 'ServiciosController@servicios');
+
+
+Route::get('/{lenguaje}/nosotros', 'NosotrosController@index');
+Route::get('/{lenguaje}/aliados', 'AliadosController@index');
+Route::get('/{lenguaje}/contacto', 'ContactoController@index');
+
+route::post('/contact', 'ContactoController@form');

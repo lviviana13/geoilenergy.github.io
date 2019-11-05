@@ -566,7 +566,7 @@ li>a:only-child:after {
 /* background images for banner */
 
 .banner-w3pvt-1 {
-    background: url(../images/banner3.jpg) no-repeat center;
+    background: url(../images/index/banner1.png) no-repeat bottom;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -576,7 +576,7 @@ li>a:only-child:after {
 }
 
 .banner-w3pvt-2 {
-    background: url(../images/banner2.jpg) no-repeat center;
+    background: url(../images/index/banner2.png) no-repeat bottom;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -586,7 +586,17 @@ li>a:only-child:after {
 }
 
 .banner-w3pvt-3 {
-    background: url(../images/banner3.jpg) no-repeat center;
+    background: url(../images/index/banner3.png) no-repeat bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 400px;
+}
+
+.banner-w3pvt-4 {
+    background: url(../images/index/banner4.png) no-repeat bottom;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2030,6 +2040,7 @@ a.move-top span {
     .banner-w3pvt-1,
     .banner-w3pvt-2,
     .banner-w3pvt-3,
+    .banner-w3pvt-4,
     .overlay-w3ls {
         min-height: 700px;
     }
@@ -2058,6 +2069,7 @@ a.move-top span {
     .banner-w3pvt-1,
     .banner-w3pvt-2,
     .banner-w3pvt-3,
+    .banner-w3pvt-4,
     .overlay-w3ls {
         min-height: 656px;
     }
@@ -2118,6 +2130,7 @@ a.move-top span {
     .banner-w3pvt-1,
     .banner-w3pvt-2,
     .banner-w3pvt-3,
+    .banner-w3pvt-4,
     .overlay-w3ls {
         min-height: 600px;
     }

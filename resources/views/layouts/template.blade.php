@@ -60,30 +60,30 @@
 
                             <li class='has-sub '><a href='#'>Software <span class="fa fa-angle-down" aria-hidden="true"></span> </a>
                                 <ul>
-                                    <li class='has-sub'><a href="{{url('/software/geosoluciones')}}">Software Geoespacial <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
+                                    <li class='has-sub'><a href="{{url('/es/software/geosoluciones')}}">Software Geoespacial <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
                                         <ul>
-                                            <li><a href="{{url('/software/geosoluciones/g-calculator')}}">Geographic Calculator</a></li>
-                                            <li><a href="{url('/software/geosoluciones/global-mapper')}}">Global Mapper</a></li>
-                                            <li><a href="{{url('/software/geosoluciones/global-mapper-ld')}}" class="sub-menu">Global Mapper / Modulo LiDAR</a>
-                                            <li><a href="{{url('/software/geosoluciones/fme')}}" class="sub-menu">FME</a>
-                                            <li><a href="{{url('/software/geosoluciones/solv3d')}}" class="sub-menu">Solv3D</a>
-                                            <li><a href="{{url('/software/geosoluciones/i-open')}}" class="sub-menu">I-Open</a>
+                                            <li><a href="{{url('/es/software/geosoluciones/g-calculator')}}">Geographic Calculator</a></li>
+                                            <li><a href="{{url('/es/software/geosoluciones/global-mapper')}}">Global Mapper</a></li>
+                                            <li><a href="{{url('/es/software/geosoluciones/global-mapper-ld')}}" class="sub-menu">Global Mapper / Modulo LiDAR</a>
+                                            <li><a href="{{url('/es/software/geosoluciones/fme')}}" class="sub-menu">FME</a>
+                                            <li><a href="{{url('/es/software/geosoluciones/solv3d')}}" class="sub-menu">Solv3D</a>
+                                            <li><a href="{{url('/es/software/geosoluciones/i-open')}}" class="sub-menu">I-Open</a>
 
                                         </ul>
                                     </li>
 
 
-                                    <li class='has-sub'><a href="{{url('/software/geofisica')}}">Soluciones Geología y Geofísica <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
+                                    <li class='has-sub'><a href="{{url('/es/software/geofisica')}}">Software Geología y Geofísica <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
                                         <ul>
-                                            <li><a href="{{url('/software/geofisica/globe-claritas')}}">Globe Claritas</a></li>
-                                            <li><a href="{{url('/software/geofisica/geomodeling')}}">Geomodeling</a></li>
-                                            <li><a href="{{url('/software/geofisica/seisware-geologia')}}" class="sub-menu">Geology by SeisWare (GL)</a>
-                                            <li><a href="{{url('/software/geofisica/seisware-geofisica')}}" class="sub-menu">Geophysics by SeisWare (GP)</a>
+                                            <li><a href="{{url('/es/software/geofisica/globe-claritas')}}">Globe Claritas</a></li>
+                                            <li><a href="{{url('/es/software/geofisica/geomodeling')}}">Geomodeling</a></li>
+                                            <li><a href="{{url('/es/software/geofisica/seisware-geologia')}}" class="sub-menu">Geology by SeisWare (GL)</a>
+                                            <li><a href="{{url('/es/software/geofisica/seisware-geofisica')}}" class="sub-menu">Geophysics by SeisWare (GP)</a>
 
-                                            <li><a href="{{url('/software/geofisica/qi')}}" class="sub-menu">QI-Pro</a>
-                                            <li><a href="{{url('/software/geofisica/structural-solver')}}" class="sub-menu">StructureSolver</a>
-                                            <li><a href="{{url('/software/geofisica/hds2000')}}">HDS 2000</a></li>
-                                            <li><a href="{{url('/software/geofisica/geovariances')}}">Geovariances (ISATIS)</a></li>
+                                            <li><a href="{{url('/es/software/geofisica/qi')}}" class="sub-menu">QI-Pro</a>
+                                            <li><a href="{{url('/es/software/geofisica/structural-solver')}}" class="sub-menu">StructureSolver</a>
+                                            <li><a href="{{url('/es/software/geofisica/hds2000')}}">HDS 2000</a></li>
+                                            <li><a href="{{url('/es/software/geofisica/geovariances')}}">Geovariances (ISATIS)</a></li>
 
 
                                         </ul>
@@ -94,25 +94,34 @@
                         </li>
                         <li class='has-sub '><a href='#'>Servicios <span class="fa fa-angle-down" aria-hidden="true"></span> </a>
                             <ul>
-                                <li class='has-sub'><a href="{{url('/servicios/geoespaciales')}}">Soluciones Geoespaciales <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
+                                <li class='has-sub'><a href="{{url('/es/servicios/geoespaciales')}}">Soluciones Geoespaciales <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
                                     <ul>
-                                        <li><a href="{{url('/servicios/geoespaciales/deimos')}}">Deimos Imaging</a></li>
-                                        <li><a href="{{url('/servicios/geoespaciales/eagle-mapping')}}">Eagle Mapping</a></li>
-                                        <li><a href="{{url('/servicios/geoespaciales/ecopia')}}" class="sub-menu">Ecopia</a>
-                                        <li><a href="{{url('/servicios/geoespaciales/sigoe')}}" class="sub-menu">SIGOE</a>
+                                        <li><a href="{{url('/es/servicios/geoespaciales/deimos')}}">Deimos Imaging</a></li>
+                                        <li><a href="{{url('/es/servicios/geoespaciales/eagle-mapping')}}">Eagle Mapping</a></li>
+                                        <li><a href="{{url('/es/servicios/geoespaciales/ecopia')}}" class="sub-menu">Ecopia</a>
+                                        <li><a href="{{url('/es/servicios/geoespaciales/sigoe')}}" class="sub-menu">SIGOE</a>
 
                                     </ul>
                                 </li>
 
-                                <li><a href="{{url('/servicios/geologia')}}" class="sub-menu">Soluciones Geología</a></li>
-                                <li><a href="{{url('/servicios/geofisica')}}" class="sub-menu">Soluciones Geofísica</a>
+                                <li><a href="{{url('/es/servicios/geologia')}}" class="sub-menu">Soluciones Geología</a></li>
+                                <li><a href="{{url('/es/servicios/geofisica')}}" class="sub-menu">Soluciones Geofísica</a>
 
+                                <li class='has-sub'><a>Soluciones Geoquímica <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
+                                    <ul>
+                                        <li><a href="{{url('/es/servicios/geoquimica/chemostrat')}}"> Chemostrat</a></li>
+
+
+                                    </ul>
                                 </li>
+
+
+
                             </ul>
                         </li>
-                        <li><a href="{{url('/nosotros')}}">Nosotros</a></li>
+                        <li><a href="{{url('/es/nosotros')}}">Nosotros</a></li>
 
-                        <li><a href="{{url('/contacto')}}">Contacto</a></li>
+                        <li><a href="{{url('/es/contacto')}}">Contacto</a></li>
                         </ul>
 
                     </div>
