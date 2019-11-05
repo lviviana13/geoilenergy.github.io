@@ -8,11 +8,10 @@ class HomeController extends Controller
 {
     public function index($lenguaje = null)
     {
-        if(isset($lenguaje) && $lenguaje == 'en'){
-            return view('en.index', ['title' => 'Bienvenidos']);
-        }else{
-            return view('es.index', ['title' => 'Welcome']);
+        if (isset($lenguaje) AND $lenguaje == 'en') {
+            return view('en.index', ['title' => 'Welcome']);
+        } else {
+            return view('es.index', ['title' => 'Bienvenidos']);
         }
-        
     }
 }
