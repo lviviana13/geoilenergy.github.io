@@ -10,7 +10,7 @@ class ContactoController extends Controller
 {
     public function index($lenguaje)
     {
-        return view(strtolower($lenguaje) . '.contacto', ['title' => 'Contactanos']);
+        return view(strtolower($lenguaje) . '.contacto', ['title' => ($lenguaje == 'es') ? 'Contactanos' : 'Contact Us']);
     }
 
     public function form(Request $content)
