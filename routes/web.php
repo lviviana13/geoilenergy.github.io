@@ -23,6 +23,4 @@ Route::get('/{lenguaje}/nosotros', 'NosotrosController@index');
 Route::get('/{lenguaje}/aliados', 'AliadosController@index');
 Route::get('/{lenguaje}/contacto', 'ContactoController@index');
 
-// Route::get('/enprueba', function () {
-//  return view('en.software.geofisica', ['title' => 'welcome al barrio' ]);
-// } );
+route::post('/contact', 'ContactoController@form');

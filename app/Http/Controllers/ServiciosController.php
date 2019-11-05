@@ -24,6 +24,9 @@ class ServiciosController extends Controller
             case 'geologia':
                 return view('servicios.geologia', ['title' => 'Servicios Geología']);
                 break;
+            case 'geoquimica':
+                return view('servicios.geoquimica.chemostrat', ['title' => 'Chemostrat']);
+                break;
             default:
                 return view('index');
                 break;

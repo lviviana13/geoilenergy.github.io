@@ -107,16 +107,16 @@
                                 <li><a href="{{url('/servicios/geologia')}}" class="sub-menu">Soluciones Geología</a></li>
                                 <li><a href="{{url('/servicios/geofisica')}}" class="sub-menu">Soluciones Geofísica</a>
 
-                                <li class='has-sub'><a >Soluciones Geoquímica <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
+                                <li class='has-sub'><a>Soluciones Geoquímica <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
                                     <ul>
                                         <li><a href="{{url('/servicios/geoquimica/chemostrat')}}"> Chemostrat</a></li>
-                                       
+
 
                                     </ul>
                                 </li>
 
 
-                               
+
                             </ul>
                         </li>
                         <li><a href="{{url('/nosotros')}}">Nosotros</a></li>
