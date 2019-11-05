@@ -16,7 +16,7 @@
                     Globe ClaritasTM 
                      es la plataforma ideal para mejorar las capacidades tecnológicas de
                         procesamiento sísmico de su compañía, adaptándose a las necesidades y desafíos que se presenten
-                        día a día. Globe ClaritasTM ha sido diseñado como una plataforma de desarrollo geofísico para
+                        día a día. Globe Claritas ha sido diseñado como una plataforma de desarrollo geofísico para
                         fortalecer la innovación y el crecimiento, sin la necesidad de una base de datos compleja y
                         costosa.</p>
                    
@@ -38,14 +38,14 @@
                         <div class="col-lg-6 about-info">
                             <h4 class="title-hny mb-3">REFSTAT</h4>
                             <img class="img-fluid mb-2" src="/images/software/globe-claritas/refstat.png" alt="">
-                            <p>La herramienta REFSTAT de Globe ClaritasTM provee soluciones para hacer las correcciones
-                                estáticas de refracción, tanto para información sísmica 2D., como 3D, a través de la
+                            <p>La herramienta REFSTAT de Globe Claritas provee soluciones para hacer las correcciones
+                                estáticas de refracción, tanto para información sísmica 2D, como 3D, a través de la
                                 comparación de los tiempos de viaje de los rayos trazados en el modelo, con los primeros
-                                tiempos de arribo seleccionados, “First Breaks”. RESTAT le permite obtener excelentes
+                                tiempos de arribo seleccionados, “First Breaks”. REFSTAT le permite obtener excelentes
                                 resultados a partir de información de topografía altamente irregular y líneas curvas,
-                                Visualización 3D de los tiempos de viaje y correcciones estáticas para control de
+                                visualización 3D de los tiempos de viaje y correcciones estáticas para control de
                                 calidad, limitar el rango del offset para trabajar con el rango que necesita, entrada y
-                                salida en formato de texto para compatibilidad con otras aplicaciones, Modificación
+                                salida en formato de texto para compatibilidad con otras aplicaciones, modificación
                                 gráfica de las selecciones 2D y 3D, para identificación de selecciones erróneas,
                                 posibilidad de incluir tiempos de geófonos y demás información en el modelo inicial,
                                 entre otras.</p>
@@ -55,7 +55,7 @@
                         <div class="col-lg-6 about-info">
                             <h4 class="title-hny mb-3">Claritas Velocity Analysis (CVA)</h4>
                             <p>Como su nombre lo indica, CVA es la herramienta de análisis de velocidades de Globe
-                                ClaritasTM, para generar campos de velocidades de una forma más fácil y rápida. </p>
+                                Claritas, para generar campos de velocidades de una forma más fácil y rápida. </p>
                             
                                 <img class="img-fluid mb-2"  style="max-height: 450px;" src="/images/software/globe-claritas/tres.png" alt="">
  
@@ -70,7 +70,7 @@
                         </div>
                         <div class="col-lg-6 about-info">
                             <h4 class="title-hny mb-3">XVIEW: Claritas Seismic Viewer</h4>
-                            <p>Xview es la herramienta de visualización de sísmica de Globe ClaritasTM que le ayudará de
+                            <p>Xview es la herramienta de visualización de sísmica de Globe Claritas que le ayudará de
                                 forma eficiente y precisa en la toma de decisión durante el procesamiento sísmico, con
                                 un control de calidad interactivo, análisis y fácil visualización comparativa de sets de
                                 datos. Las funcionalidades de Xview están pensadas en ahorrarle tiempo al usuario,
@@ -79,7 +79,8 @@
 
                             <img class="img-fluid mb-2"  style="max-height: 400px;" src="/images/software/globe-claritas/csv.png" alt="">
                             
-                            <ul>
+                           <p>
+                           <ul class="ul-lista">
                                 <li>Análisis interactivo en la visualización de la sísmica.</li>
                                 <li>Paneles de sobreposición y repeticiones animadas para resaltar los cambios en el
                                     procesamiento.
@@ -92,6 +93,7 @@
                                 </li>
                                 <li>Representación gráfica de los cabezales de las trazas Vs. Información sísmica.</li>
                             </ul>
+                           </p>
                         </div>
                     </div>
                     <h3 class="title-hny my-2">Job Control System (JCS)</h3>

@@ -87,7 +87,21 @@
         <div class="row about-w3pvt-top mt-3">
             <div class="col-lg-3 about-info">
                 <ul>
-                    <li class="list-group-item"> <a href="{{url('/nosotros')}}"><img src="images/nosotros/viviana_p.jpg" class="img-person"></a> </li>
+                    <li class="list-group-item text-center"> <a href="{{url('/nosotros')}}"><img src="images/nosotros/laura_p.png" class="img-person"></a> </li>
+                </ul>
+            </div>
+            <div class="col-lg-9 about-info">
+                <h3> Laura Rojas</h3>
+                <span class="sub-tittle-team">Geóloga</span>
+                <p class="info-person"> Geóloga, especialista en Gerencia de Recursos Naturales. Con experiencia en gestión de recursos naturales y evaluación de proyectos. </p>
+            </div>
+        </div>
+
+
+        <div class="row about-w3pvt-top mt-3">
+            <div class="col-lg-3 about-info">
+                <ul>
+                    <li class="list-group-item text-center"> <a href="{{url('/nosotros')}}"><img src="images/nosotros/viviana_p.jpg" class="img-person"></a> </li>
                 </ul>
             </div>
             <div class="col-lg-9 about-info">

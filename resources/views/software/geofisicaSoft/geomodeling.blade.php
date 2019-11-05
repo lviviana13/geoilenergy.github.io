@@ -17,7 +17,7 @@
                 <p>Las aplicaciones de Geomodeling Technology Corp. les permiten a los geólogos, geofísicos e
                     ingenieros de reservorio definir rápidamente las zonas objetivo de los reservorios y alcanzar el
                     mayor desempeño reduciendo el riesgo y las incertidumbres de su yacimiento. Geomodeling es una
-                    herramienta de gran ayuda que le Brinda soluciones en modelamiento integrado, a multi-escala,
+                    herramienta de gran ayuda que le brinda soluciones en modelamiento integrado, a multi-escala,
                     combinando visualización estratigráfica y correlación de múltiples atributos con las más
                     recientes y avanzadas técnicas de modelamiento de reservorio.</p>
 
@@ -30,25 +30,26 @@
                             Convencional</h4>
 
 
-                        <p>Es una herramienta fácil de usar bajo un entorno Windows y asequible, integral y poderosa
-                            en el análisis de atributos sísmicos que les permite a los usuarios:</p>
-                        <ul>
-                            <li>Capturar y visualizar variaciones en las señales sísmicas que normalmente no son
-                                evidentes en el mapeo de tiempo y amplitud.
-                            </li>
-                            <li>Identificar zonas objetivo más rápido, evitando pozos secos con visualización de
-                                múltiples volúmenes de atributos.
-                            </li>
-                            <li>Hallar zonas de óptima producción a partir de redes neuronales basadas en
-                                clasificación de facies sísmicas.
-                            </li>
-                            <li>Detectar capas delgadas, fallas y anomalías por debajo del umbral sísmico y delinear
-                                canales con descomposición espectral.
-                            </li>
-                            <li>Utilizar herramientas avanzadas para el análisis de yacimientos no convencionales in
-                                “Shales” y otras formaciones “Apretadas”.
-                            </li>
-                        </ul>
+                        <p>Es una herramienta fácil de usar bajo el entorno Windows y asequible, integral y poderosa en el análisis de atributos sísmicos que les permite a los usuarios:</p>
+                        <p>
+                            <ul class="ul-lista">
+                                <li>Capturar y visualizar variaciones en las señales sísmicas que normalmente no son
+                                    evidentes en el mapeo de tiempo y amplitud.
+                                </li>
+                                <li>Identificar zonas objetivo más rápido, evitando pozos secos con visualización de
+                                    múltiples volúmenes de atributos.
+                                </li>
+                                <li>Hallar zonas de óptima producción a partir de redes neuronales basadas en
+                                    clasificación de facies sísmicas.
+                                </li>
+                                <li>Detectar capas delgadas, fallas y anomalías por debajo del umbral sísmico y delinear
+                                    canales con descomposición espectral.
+                                </li>
+                                <li>Utilizar herramientas avanzadas para el análisis de yacimientos no convencionales in
+                                    “Shales” y otras formaciones “Apretadas”.
+                                </li>
+                            </ul>
+                        </p>
                         <hr>
                         <img class="img-fluid mb-2" style="max-height: 420px" src="/images/software/geomodeling/uno.png" alt="">
 
@@ -58,7 +59,7 @@
                         <h1 class="text-center"><img class="img-fluid mb-2" style="max-height: 420px" src="/images/software/geomodeling/dos.png" alt=""></h1>
 
                         <p>Éstas son algunas de las herramientas para análisis sísmico:</p>
-                        <ul>
+                        <ul class="ul-lista">
                             <li>Visualización de información 3D.</li>
                             <li>Correlación múlti- atributos.</li>
                             <li>Análisis de volúmenes estratigráficos.</li>
@@ -75,13 +76,13 @@
                     <div class="col-lg-6 about-info">
                         <h4 class="title-hny mb-3">Reservoir Studio™ – Modelamiento Geológico para Heterogeneidad de
                             Reservorio</h4>
-                        <p>Reservoir Studio™ le Brinda soluciones de reservorio para estructuras sedimentarias con
+                        <p>Reservoir Studio™ le brinda soluciones de reservorio para estructuras sedimentarias con
                             resultados de modelamiento de reservorio de excelente resolución y detalle
                             estratigráfico, siguiendo las reglas sedimentológicas seleccionadas por el usuario,
                             similares a los modelos geo-celulares convencionales. Integrando información de
                             registros de pozo, sísmica 2D y 3D e información de núcleos. <br>Con Reservoir Studio
                             tome mejores decisiones: </p>
-                        <ul>
+                        <ul class="ul-lista">
                             <li>Los modelos pueden ser realizados obteniendo excelentes resultados en tan solo
                                 horas, no días.
                             </li>
@@ -119,12 +120,12 @@
                             campo, modelando detalles sedimentarios de pequeña escala que impactan el desempeño del
                             reservorio a gran escala. A diferencia de los programas de modelamiento convencional a escala de
                             reservorio, SBED™ hace uso de los procesos geológicos desde el escalamiento de las mediciones
-                            del tapón de núcleo hasta los modelos de campo completes. Como resultado, los modelos de SBED™,
+                            del tapón de núcleo hasta los modelos de campo completos. Como resultado, los modelos de SBED™,
                             abordan la heterogeneidad observada del reservorio tanto a escala de núcleo como a escala de
                             afloramiento.</p>
                         <p>Correlación de atributos sísmicos e información de producción. Atributos de volumen, horizontes e
                             intervalos.</p>
-                        <ul>
+                        <ul class="ul-lista">
                             <li>Descomposición espectral.</li>
                             <li>Semblanza</li>
                             <li>Filtrado de estructuras por orientación.</li>

@@ -194,3 +194,9 @@
         margin-top: 0px;
         margin-left: 0px;
     }
+    
+    .ul-lista {
+        font-size: 1.1em;
+        color: rgb(27, 27, 27);
+        line-height: 1.8em;
+    }

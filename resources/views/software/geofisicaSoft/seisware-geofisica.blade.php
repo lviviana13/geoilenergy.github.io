@@ -11,7 +11,8 @@
                     </a>
 
 
-                    <p>Geophysics by SeisWare (GP) es una plataforma de herramientas intuitivas y de fácil uso, diseñada para la interpretación sísmica 2D y 3D, bajo un ambiente innovador y dinámico, desarrollado para Geocientíficos por Geocientíficos.
+                    <p>Geophysics by SeisWare (GP) es una plataforma de herramientas intuitivas y de fácil uso, diseñada para la 
+                        interpretación sísmica 2D y 3D, bajo un ambiente innovador y dinámico, desarrollado para geo-científicos por geo-científicos.
                     </p>
                     
                     <h4>Ventajas de Geophysics by SeisWare (GP)</h4><br>
@@ -32,14 +33,15 @@
                         <div class="col-lg-6 about-info">
                         <h4>Conversión Tiempo-Profundidad</h4>
                         <br>
-                    <ul>
+                    <ul  class="ul-lista">
                         <li>Selección los datos de ingreso para el modelo de capas</li>
                         <li>Integre compactación promedio o grillas de compactación promedio.</li>
                         <li>Realice control de calidad y remueva información rugosa usando un histograma de velocidades interactivo</li>
                         <li>Cree modelos de velocidades para convertir información sísmica, horizontes y fallas.
-                            Geophysics byeisWare (GP) tiene herramientas de mapeo fácil de las interpretaciones sísmicas e información de pozo, isópacas e isócoras.</li>
+                            Geophysics by SeisWare (GP) tiene herramientas de mapeo fácil de las interpretaciones sísmicas e información de pozo, isópacas e isócoras.</li>
                         <li>Vista Simultánea de Slice de tiempo y/o atributos sísmicos para múltiples volúmenes 3D.</li>
-                        <li>Soluciones de visualización 2D y 3D en tiempo y en profundidad. Combinación de atributos sísmicos 3D (Co-blend), combinación de múltiples atributos sísmicos (RGBA).</li>
+                        <li>Soluciones de visualización 2D y 3D en tiempo y en profundidad.
+                             Combinación de atributos sísmicos 3D (Co-blend), combinación de múltiples atributos sísmicos (RGBA).</li>
                         <li>Actualización en tiempo real de interpretaciones de horizontes y fallas.</li>
                         <li>Herramientas de visualización y edición de registros</li>
                         <li>Generación de sintéticos a partir de registros sónico y densidad</li>
