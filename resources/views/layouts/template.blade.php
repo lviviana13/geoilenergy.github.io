@@ -63,7 +63,7 @@
                                     <li class='has-sub'><a href="{{url('/es/software/geosoluciones')}}">Software Geoespacial <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
                                         <ul>
                                             <li><a href="{{url('/es/software/geosoluciones/g-calculator')}}">Geographic Calculator</a></li>
-                                            <li><a href="{url('/es/software/geosoluciones/global-mapper')}}">Global Mapper</a></li>
+                                            <li><a href="{{url('/es/software/geosoluciones/global-mapper')}}">Global Mapper</a></li>
                                             <li><a href="{{url('/es/software/geosoluciones/global-mapper-ld')}}" class="sub-menu">Global Mapper / Modulo LiDAR</a>
                                             <li><a href="{{url('/es/software/geosoluciones/fme')}}" class="sub-menu">FME</a>
                                             <li><a href="{{url('/es/software/geosoluciones/solv3d')}}" class="sub-menu">Solv3D</a>
@@ -94,22 +94,22 @@
                         </li>
                         <li class='has-sub '><a href='#'>Servicios <span class="fa fa-angle-down" aria-hidden="true"></span> </a>
                             <ul>
-                                <li class='has-sub'><a href="{{url('/servicios/geoespaciales')}}">Soluciones Geoespaciales <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
+                                <li class='has-sub'><a href="{{url('/es/servicios/geoespaciales')}}">Soluciones Geoespaciales <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
                                     <ul>
-                                        <li><a href="{{url('/servicios/geoespaciales/deimos')}}">Deimos Imaging</a></li>
-                                        <li><a href="{{url('/servicios/geoespaciales/eagle-mapping')}}">Eagle Mapping</a></li>
-                                        <li><a href="{{url('/servicios/geoespaciales/ecopia')}}" class="sub-menu">Ecopia</a>
-                                        <li><a href="{{url('/servicios/geoespaciales/sigoe')}}" class="sub-menu">SIGOE</a>
+                                        <li><a href="{{url('/es/servicios/geoespaciales/deimos')}}">Deimos Imaging</a></li>
+                                        <li><a href="{{url('/es/servicios/geoespaciales/eagle-mapping')}}">Eagle Mapping</a></li>
+                                        <li><a href="{{url('/es/servicios/geoespaciales/ecopia')}}" class="sub-menu">Ecopia</a>
+                                        <li><a href="{{url('/es/servicios/geoespaciales/sigoe')}}" class="sub-menu">SIGOE</a>
 
                                     </ul>
                                 </li>
 
-                                <li><a href="{{url('/servicios/geologia')}}" class="sub-menu">Soluciones Geología</a></li>
-                                <li><a href="{{url('/servicios/geofisica')}}" class="sub-menu">Soluciones Geofísica</a>
+                                <li><a href="{{url('/es/servicios/geologia')}}" class="sub-menu">Soluciones Geología</a></li>
+                                <li><a href="{{url('/es/servicios/geofisica')}}" class="sub-menu">Soluciones Geofísica</a>
 
                                 <li class='has-sub'><a>Soluciones Geoquímica <span class="fa fa-angle-right" aria-hidden="true"></span> </a>
                                     <ul>
-                                        <li><a href="{{url('/servicios/geoquimica/chemostrat')}}"> Chemostrat</a></li>
+                                        <li><a href="{{url('/es/servicios/geoquimica/chemostrat')}}"> Chemostrat</a></li>
 
 
                                     </ul>
@@ -119,9 +119,9 @@
 
                             </ul>
                         </li>
-                        <li><a href="{{url('/nosotros')}}">Nosotros</a></li>
+                        <li><a href="{{url('/es/nosotros')}}">Nosotros</a></li>
 
-                        <li><a href="{{url('/contacto')}}">Contacto</a></li>
+                        <li><a href="{{url('/es/contacto')}}">Contacto</a></li>
                         </ul>
 
                     </div>

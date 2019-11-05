@@ -13,11 +13,12 @@
 
 Route::get('/{lenguaje?}', 'HomeController@index');
 
+/** Softtware */
+Route::get('/{lenguaje}/software/{idsoftware}/{idsubsoftware?}', 'SoftwareController@software');
+
 /** Servicios */
 Route::get('/{lenguaje}/servicios/{idservicio}/{idsubservicio?}', 'ServiciosController@servicios');
 
-/** Softtware */
-Route::get('/{lenguaje}/software/{idsoftware}/{idsubsoftware?}', 'SoftwareController@software');
 
 Route::get('/{lenguaje}/nosotros', 'NosotrosController@index');
 Route::get('/{lenguaje}/aliados', 'AliadosController@index');

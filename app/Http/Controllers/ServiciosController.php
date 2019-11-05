@@ -6,53 +6,113 @@ use Illuminate\Http\Request;
 
 class ServiciosController extends Controller
 {
-    public function servicios($idservicio, $idsubservicio = null)
+    public function servicios($lenguaje = null, $idservicio, $idsubservicio = null)
     {
         switch (strtolower($idservicio)) {
             case 'geoespaciales':
-                return (isset($idsubservicio))
-                    ? $this->geoespacial($idsubservicio)
-                    : view('servicios.geoespaciales',
-                           [
-                               'title' => 'Soluciones Geoespaciales'
-                           ]
-                    );
+                if (isset($idsubsoftware)) {
+                    return  $this->geoespacial($idsubservicio, $lenguaje);
+                } else {
+
+                    if (isset($lenguaje) && $lenguaje == 'en') {
+                        return view(
+                            'en.servicios.geoespaciales',
+                            [
+                                'title' => 'Geosolutions'
+                            ]
+                        );
+                    } else {
+                        return view(
+                            'es.servicios.geoespaciales',
+                            [
+                                'title' => 'Geosoluciones'
+                            ]
+                        );
+                    }
+                }
+
                 break;
             case 'geofisica':
-                return view('servicios.geofisica', ['title' => 'Servicios Geofisica']);
+                if (isset($lenguaje) && $lenguaje == 'en') {
+                    return view(
+                        'en.servicios.geofisica',
+                        [
+                            'title' => 'G&G'
+                        ]
+                    );
+                } else {
+                    return view(
+                        'es.servicios.geofisica',
+                        [
+                            'title' => 'G&G'
+                        ]
+                    );
+                }
+
                 break;
             case 'geologia':
-                return view('servicios.geologia', ['title' => 'Servicios Geología']);
+                if (isset($lenguaje) && $lenguaje == 'en') {
+                    return view(
+                        'en.servicios.geologia',
+                        [
+                            'title' => 'G&G'
+                        ]
+                    );
+                } else {
+                    return view(
+                        'es.servicios.geologia',
+                        [
+                            'title' => 'G&G'
+                        ]
+                    );
+                }
+
                 break;
+
             case 'geoquimica':
-                return view('servicios.geoquimica.chemostrat', ['title' => 'Chemostrat']);
+                if (isset($lenguaje) && $lenguaje == 'en') {
+                    return view(
+                        'en.geoquimica.chemostrat',
+                        [
+                            'title' => 'Chemostrat'
+                        ]
+                    );
+                } else {
+                    return view(
+                        'es.geoquimica.chemostrat',
+                        [
+                            'title' => 'Chemostrat'
+                        ]
+                    );
+                }
+
                 break;
             default:
-                return view('index');
+                return view('es.index');
                 break;
         }
     }
 
-    public function geoespacial($idgeoespacial)
+    public function geoespacial($idgeoespacial, $lenguaje = null)
     {
         switch (strtolower($idgeoespacial)) {
             case 'deimos':
-                return view('servicios.geoespacialesServ.deimos', ['title' => 'Deimos Imaging']);
+                return view(strtolower($lenguaje).'.servicios.geoespacialesServ.deimos', ['title' => 'Deimos Imaging']);
                 break;
             case 'eagle-mapping';
-                return view('servicios.geoespacialesServ.eagle-mapping', ['title' => 'Eagle Mapping']);
+                return view(strtolower($lenguaje).'.servicios.geoespacialesServ.eagle-mapping', ['title' => 'Eagle Mapping']);
                 break;
             case 'iopenfme':
-                return view('servicios.geoespacialesServ.iopenfme', ['title' => 'IOPEN & FME']);
+                return view(strtolower($lenguaje).'.servicios.geoespacialesServ.iopenfme', ['title' => 'IOPEN & FME']);
                 break;
             case 'sigoe':
-                return view('servicios.geoespacialesServ.sigoe', ['title' => 'Sigoe']);
+                return view(strtolower($lenguaje).'.servicios.geoespacialesServ.sigoe', ['title' => 'Sigoe']);
                 break;
             case 'ecopia':
-                return view('servicios.geoespacialesServ.ecopia', ['title' => 'Ecopia']);
+                return view(strtolower($lenguaje).'.servicios.geoespacialesServ.ecopia', ['title' => 'Ecopia']);
                 break;
             case 'drones':
-                return view('servicios.geoespaciales.ecopia', ['title' => 'Drones']);
+                return view(strtolower($lenguaje).'.servicios.geoespaciales.ecopia', ['title' => 'Drones']);
                 break;
             default:
                 return view('index');
